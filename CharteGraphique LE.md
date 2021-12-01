@@ -33,3 +33,7 @@ Mise en page…
 
 ![image-20211201081448808](https://user-images.githubusercontent.com/91117110/144189482-08bde615-c9f9-4580-b6f9-6a2019fc3510.png)![image-20211201081526266](https://user-images.githubusercontent.com/91117110/144189554-b86c8814-7ecb-4ec0-bc07-11d4da3e5253.png)![image-20211201081532114](https://user-images.githubusercontent.com/91117110/144189598-1800bb67-c0e0-4d01-8ae9-12ad9ac55ace.png)![dreal](https://user-images.githubusercontent.com/91117110/144189651-a700da76-61eb-4213-b0af-7092efb87c72.png)![chu](https://user-images.githubusercontent.com/91117110/144189682-4838723e-ee3e-4f80-bb30-17edee5ab42d.png)
 
+> ##### Utilisation d'images personnelles
+
+![image](https://user-images.githubusercontent.com/91117110/144189980-42edb7cf-8540-4df7-9180-804193163e6d.png)![image](https://user-images.githubusercontent.com/91117110/144190011-6d1771b1-50bf-4154-88fd-73172ece7182.png)![image](https://user-images.githubusercontent.com/91117110/144190068-f7573f6e-ee11-46b6-85a4-ab7220fbdd4e.png)![image](https://user-images.githubusercontent.com/91117110/144190112-4d7d5427-5d9e-4d7f-b7c9-8bcffdba8734.png)
+
