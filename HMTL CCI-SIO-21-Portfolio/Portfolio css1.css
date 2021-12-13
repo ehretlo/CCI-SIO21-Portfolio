@@ -1,0 +1,166 @@
+body{
+    margin:0px;
+
+    
+    }
+
+/* barre de navigation 1, nom. */
+#header{
+    height:200px;
+    background:#D2D7DD;
+    margin-top: -40px;
+    position: fixed;
+    text-align: center;
+    padding: 1px;
+    display: block;
+    font-size: 30px;
+}
+
+ /*Barre de navigation 1, le fait que la barre fasse toute la page à l'horizontal*/
+h1#header {
+    height: 100px;
+    padding-left: 1px;
+    position:fixed;
+    border-right-width: 0px;
+    margin-bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin:0 auto;
+    padding-top: 40px;
+    top: 0px;
+    height: 70px;
+
+}
+
+/* fond qui bouge. à laisser */
+.banner {
+    margin-top: -20px;
+    height: 110vh;
+    width: 100%;
+    background: url(pic/fond_premiere_page.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+
+div.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    margin-top: 60px;
+
+}
+
+/*<h1 id="header" id="h1" style="width: 499px; height: 70px;"> manipuler la hauteur de la nav bar 1 */
+
+@font-face {
+    font-family: 'Groteskia';
+    src: url('C:\Users\phyle\Desktop\HMTL CCI-SIO-21-Portfolio\font\groteskia\GROTESKIA.otf'); 
+}
+
+@font-face {
+    font-family: 'signatureblack';
+    src: url('C:\Users\phyle\Desktop\HMTL CCI-SIO-21-Portfolio\font\Blacksiganture\Blacksignature.otf');
+}
+
+.policesignature {
+    font-family:'signaturevp';
+}
+
+.policegroteskia {
+    font-family: 'Groteskia';
+}
+
+nav > ul {
+    display: block;
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+/** ul est un élément clé de la page, il est la barre de navigation active. Basé sur la même architecture que h1#header. **/
+
+ul {
+    font-size: 20px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #D2D7DD;
+    border-radius: 10px;
+    position: fixed;
+    top: 100px; 
+    display: flex;
+    padding-top: 2px;
+    width: 70%;
+    margin: auto;
+    padding-left: 0px;
+    right: 0px;
+    left: 0px;
+    width: 600px;
+    justify-content: center;
+
+}
+
+
+
+/*texte et infos Ce que je suis.. Mes formations...*/
+li a {
+    display:block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'Groteskia';
+    font-size: 22px;
+}
+
+/* mettre de la couleur autour des menus
+li a:hover:not(.active) {
+    background-color: #904639;
+}
+*/
+
+/* Mettre de la couleur quand le curseur passe dessus */
+a:hover {
+    color: #904639;
+    font-family: 'Groteskia';
+}
+
+/* EXPLICATIONS HTML 
+l'élément &nbsp; sert à ajouter un espace supplémentaire dans un texte. &ensp pour 2 espaces etc.. */
+
+.presentationtext {
+    font-size: 70px;
+    color: white;
+    font-family: 'Groteskia';
+    width: 1000px;
+    vertical-align: left;
+    margin-left: 120px;
+}
+
+div.centertext {
+    
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    display: flex;
+
+
+}
+
+
+
+.vertical {
+    border-left: 2px solid #fff;
+        height: 350px; 
+
+
+
+}
+
+div.vertical {
+    border-left-width: 3px;
+    width: 5px;
+
+}
+
+
