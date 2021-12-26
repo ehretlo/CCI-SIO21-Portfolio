@@ -1,3 +1,140 @@
-.presentationtext {
-    font-size: 90px;
+@media ALL and (max-width: 1024px) {
+
+  
+  div.textandimage {
+   
+    font-size: 15px;
+    height: auto;
+    width: auto;
+      margin: auto;
+      justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+   display: block;
+  }
+  
+  
+    input.favorite.styled {
+      display: block;
+      
+    }
+/* reconnu mais fonctionne pas*/
+    h1 {
+      display: block;
+     
+    }
+
+    h1#header {
+      font-size: 25px;
+    }
+/* a tester, bizarre*/
+    ul {
+      display: flex;
+    }
+
+
+    div.sectionquisuisje {
+ 
+      height: 750px;
+    
+    }
+
+  p.presentationtext {
+    
+   
+     width: 500px;
+     font-size: 80px;
+  }
+  
+    img {
+      display: block;
+      margin: auto;
+     width: 50% auto;
+    margin-top: 20px;
+    }
+
+
+    div.texteetimage {
+    display: block;
+    margin: 0 auto;
+  }
+
+  div.text3 {
+    
+    margin-top: 25px;
+
+  }
+
+/* section pour agrandir le gris foncé de section mes formations*/
+
+  div.sectionmesformations {
+    
+    height: 930px;
+
+
+  }
+  div.goulden, div.ccicampus {
+  text-align: center;
+  font-size: 25px;
+  display: block;
+  
+  margin-top: 15px;
+
+  }
+
+  /* responsive de mes formations */
+  div.formatext1, div.formatext2 , div.formatext3 {
+  text-align: center;
+  font-size: 20px;
+  }
+
+  div.formatext2, div.formatext4 {
+    margin: auto;
+    font-size: 20px;
+  }
+
+  div.temoignage {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+
+/*responsive partie à gauche de qui suis je*/
+  div.text1, div.text2, div.text7, div.text8 {
+    display: block;
+    margin: 0 auto;
+    
+  }
+
+  div.silver {
+    text-align: center;
+  }
+
+/* responsive partie à droite de qui suis je */
+
+  div.text3, div.text6, div.text5{
+    display: block;
+    margin: 0 auto;
+    
+  }
+
+  div.text3 {
+    margin-top: 30px;
+  }
+/*fin*/
+
+
+/*responsive textes entreprise*/
+
+div.entreprises {
+  display: block;
+  text-align: center;
 }
+
+div.SEW-Usocome,div.dreal,div.CHH {
+ margin: auto;
+}
+
+}
+

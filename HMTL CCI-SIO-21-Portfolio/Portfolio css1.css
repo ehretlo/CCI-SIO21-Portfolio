@@ -1,6 +1,6 @@
+
 body{
     margin:0px;
-
     
     }
 
@@ -29,7 +29,6 @@ h1#header {
     padding-top: 40px;
     top: 0px;
     height: 70px;
-
 }
 
 /* fond qui bouge. à laisser */
@@ -46,9 +45,7 @@ div.banner {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
     margin-top: 60px;
-
 }
 
 /*<h1 id="header" id="h1" style="width: 499px; height: 70px;"> manipuler la hauteur de la nav bar 1 */
@@ -97,10 +94,7 @@ ul {
     left: 0px;
     width: 600px;
     justify-content: center;
-
 }
-
-
 
 /*texte et infos Ce que je suis.. Mes formations...*/
 li a {
@@ -111,6 +105,7 @@ li a {
     text-decoration: none;
     font-family:'Groteskia';
     font-size: 22px;
+
 }
 
 /* mettre de la couleur autour des menus
@@ -123,18 +118,19 @@ li a:hover:not(.active) {
 a:hover {
     color: #904639;
     font-family: 'Groteskia';
+
 }
 
 /* EXPLICATIONS HTML 
 l'élément &nbsp; sert à ajouter un espace supplémentaire dans un texte. &ensp pour 2 espaces etc.. */
 
 .presentationtext {
-    font-size: 70px;
+    font-size: 120px;
     color: white;
     font-family: 'Groteskia';
     width: 1000px;
-    vertical-align: left;
     margin-left: 120px;
+    margin-top: 60px;
 }
 
 div.centertext {
@@ -143,24 +139,360 @@ div.centertext {
     margin-right: 50px;
     margin-top: 10px;
     display: flex;
-
-
 }
-
-
 
 .vertical {
     border-left: 2px solid #fff;
         height: 350px; 
-
-
-
 }
 
 div.vertical {
     border-left-width: 3px;
     width: 5px;
+}
+
+/* PAGE WEB TEXTE EN DESSOUS DE LA PRESENTATION */
+
+h3 {
+    font-size: 35px;
+    padding-top: 30px;
+    margin-top: 0px;
+    color: black;
+}
+
+div.sectionquisuisje {
+    background: #D2D7DD;
+    font-family: 'Groteskia';
+    margin: 0 auto;
+    
+    height: 550px;
+}
+
+div.textandimage {
+   
+    font-size: 26px;
+    display: flex;
+    height: 500px;
+    width: 1500px;
+      margin: auto;
+      justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+div.text1 {
+    
+    margin-top: 0px;
+    display: flex;
+    margin-left:25px;
+    width: 1000px;
+    margin-left: 0px;
+
+    
+    margin-right: 0px;
+
+    margin-left: 20px;
+    width: 400px;
+  
+}
+
+div.text2 {
+    width: 400px;
+    
+    margin-left: 20px;
 
 }
 
+.text4 {
+    width: 400px;
+    
+    margin-left: 20px;
+}
 
+
+.text3 {
+    width: 400px;
+    margin-left: 30px;
+ 
+}
+div.text3 {
+    margin-top: 0px;
+    margin-left: 25px;
+
+    margin-left: 30px;
+
+}
+
+/* image stylisée et son hover*/
+
+img{
+    width:320px;
+    object-fit:cover;
+	transition-property: transform;
+	transition-duration: 500ms;
+}
+
+img:hover {
+    transform: scale(1.15);
+    
+}
+
+
+/* fin */
+
+.text5 {
+    width: 400px;
+    margin-left: 20px;
+}
+
+.text6 {
+    width: 400px;
+    margin-left: 20px;
+}
+
+.text7 {
+    color:#904639;
+    width: 400px;
+    margin-left: 20px;
+}
+
+.text8 {
+    width: 400px;
+    margin-left: 20px;
+}
+
+span.yellow {
+    color: #fff000;
+}
+
+div.silver {
+    color: #6b676b;
+    margin-left:20px;
+}
+
+/*COULEURS POUR TEXTE */
+.grote {
+    color:#904639;
+}
+
+/* FIN COULEURS POUR TEXTE*/
+
+h5 {
+    text-align: center;
+    border: 1500px black ridge;
+    border-left: 1000px solid black;
+    border-right: 1500px solid black;
+    border-width: 2px;
+    border-left-width: 2px;
+    background-color: #943126;
+    padding: 1px;
+    margin: 40px;
+    padding: 35px;
+    margin-left: 800px;
+    margin-right: 800px;
+    margin-top: 2px;
+    border-radius: 10px;
+    display: block;
+    font-family: 'Groteskia';
+    font-size: 35px;
+}
+
+div.sectionmesformations {
+    background: #6b676b;
+    font-family: 'Groteskia';
+    height: 555px;
+}
+
+
+h7 {
+    color: #fff;
+}
+
+/* mes formations texte */
+div.formatext1 {
+    color: #D2D7DD;
+    font-size: 30px;
+   
+}
+
+div.formatext2 {
+    color:#D2D7DD;
+    font-size: 25px;
+    
+    width: 500px;
+   
+}
+
+div.formatext4 {
+    color:#D2D7DD;
+    font-size: 25px;
+    
+    
+    width: 420px;
+
+    margin: 0 auto;
+}
+
+
+div.formatext3 {
+    color:#904639;
+    font-size: 25px;
+}
+
+div.ccicampus {
+  
+    margin-top: 15px;
+    font-size: 40px;
+
+
+}
+
+div.goulden {
+    font-size: 40px;
+    margin-top: 15px;
+
+}
+
+div.texteetimage {
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    grid: 0%;
+    margin-left: 100px;
+    align-items: baseline;
+    height: 390px;
+}
+    
+
+h3 {
+   
+    display: block;
+    
+}
+
+div.temoignage {
+    font-size: 20px;
+    width: 400px;
+
+}
+
+div.temoignage:hover {
+    color: #fff;
+}
+
+/* SECTION ENTREPRISES DEBUT */
+
+h8 {
+    font-family: 'Groteskia';
+}
+
+div.entreprises {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    
+}
+
+div.sectionentreprises {
+    
+    height: 510px;
+
+}
+
+/*DIV SEW*/
+div.Sew-usocome {
+    font-family: 'Groteskia';
+    
+    width: 397px;
+
+}
+
+div.entreprisestext1 {
+    font-family: 'Groteskia';
+    font-size: 35px;
+    
+}
+
+div.entreprisestext2 {
+    font-family: 'Groteskia';
+    font-size: 20px;
+    
+    margin-top: 5px;
+    
+}
+
+div.datestext {
+    font-family: 'Groteskia';
+    font-size: 20px;
+    color: #6b676b;
+}
+
+
+/* FIN SECTION ENTREPRISES */
+
+/* LIEN HYPERTEXT VERS LA VIDEO BAC*/
+
+a {
+    color: black;
+}
+
+/*_______________ trait !!!__________________ */
+
+h3:before {
+    margin-left:-100%;
+  margin-right:3em}
+  h3:after {
+    margin-right:-100%;
+  margin-left:3em;}
+
+  h3:before, h3:after {
+    content:'';
+    width:3em;
+    border-bottom:#904639 solid;
+    display:inline-block;
+    vertical-align:middle;
+  }
+
+
+/* POUR LE BUTTON CV*/
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: #904639;
+    display: block;
+ 
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
+/*_____________________barre de navigation stylisee______________*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* toute la hauteur */
+  ::-webkit-scrollbar-track {
+    background: #D2D7DD;
+  }
+  
+  /* maintient */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(56, 56, 56);
+  }
+  
+  /* curseur du barre */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
