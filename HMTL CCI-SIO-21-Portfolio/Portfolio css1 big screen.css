@@ -1,6 +1,13 @@
 @media ALL and (max-width: 1024px) {
 
-  
+  /*image respnsive de fond pour aller sur les écrans*/
+  .banner  {
+    height: auto;
+    
+    height: 630px;
+
+  }
+
   div.textandimage {
    
     font-size: 15px;
@@ -13,7 +20,12 @@
     align-content: space-around;
    display: block;
   }
-  
+
+
+
+  .vertical {
+    height: 300px;
+  }
   
     input.favorite.styled {
       display: block;
@@ -30,21 +42,29 @@
     }
 /* a tester, bizarre*/
     ul {
-      display: flex;
+      display: none;
+    
     }
-
 
     div.sectionquisuisje {
  
-      height: 750px;
+    HEIGHT:790px;
+    font-size: 20px;
     
     }
 
-  p.presentationtext {
+  .presentationtext {
     
    
-     width: 500px;
-     font-size: 80px;
+    width: 400px;
+
+     
+     font-size: 50px;
+     
+    height: 550px;
+    margin-left: 4px;
+    margin-top: 80px;
+
   }
   
     img {
@@ -52,6 +72,7 @@
       margin: auto;
      width: 50% auto;
     margin-top: 20px;
+    
     }
 
 
@@ -122,19 +143,49 @@
   div.text3 {
     margin-top: 30px;
   }
+
+  div.avenir {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  div.entreprisesprincipal {
+    display: block;
+  }
+
+  
 /*fin*/
+
+div.entreprises2 {
+  display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 
 /*responsive textes entreprise*/
 
-div.entreprises {
+div.sectionentreprises {
   display: block;
   text-align: center;
+}
+
+
+
+div.entreprises {
+  display: block;
+  
+  
 }
 
 div.SEW-Usocome,div.dreal,div.CHH {
  margin: auto;
 }
+
+
 
 }
 

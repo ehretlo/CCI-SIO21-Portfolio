@@ -34,17 +34,14 @@ h1#header {
 /* fond qui bouge. à laisser */
 .banner {
     margin-top: -20px;
-    height: 110vh;
+    height: 870px ;
     width: 100%;
     background: url(pic/fond_premiere_page.jpg);
     background-size: cover;
-    display: inline-block;
+    
 }
 
 div.banner {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     margin-top: 60px;
 }
 
@@ -125,7 +122,7 @@ a:hover {
 l'élément &nbsp; sert à ajouter un espace supplémentaire dans un texte. &ensp pour 2 espaces etc.. */
 
 .presentationtext {
-    font-size: 120px;
+    font-size: 115px;
     color: white;
     font-family: 'Groteskia';
     width: 1000px;
@@ -136,14 +133,15 @@ l'élément &nbsp; sert à ajouter un espace supplémentaire dans un texte. &ens
 div.centertext {
     
     margin-left: 50px;
-    margin-right: 50px;
+    margin-right:auto;
     margin-top: 10px;
     display: flex;
 }
 
 .vertical {
     border-left: 2px solid #fff;
-        height: 350px; 
+    height: 670px;
+        
 }
 
 div.vertical {
@@ -199,17 +197,14 @@ div.text1 {
 
 div.text2 {
     width: 400px;
-    
     margin-left: 20px;
 
 }
 
 .text4 {
     width: 400px;
-    
     margin-left: 20px;
 }
-
 
 .text3 {
     width: 400px;
@@ -219,7 +214,6 @@ div.text2 {
 div.text3 {
     margin-top: 0px;
     margin-left: 25px;
-
     margin-left: 30px;
 
 }
@@ -235,42 +229,33 @@ img{
 
 img:hover {
     transform: scale(1.15);
-    
 }
-
-
 /* fin */
 
 .text5 {
     width: 400px;
     margin-left: 20px;
 }
-
 .text6 {
     width: 400px;
     margin-left: 20px;
 }
-
 .text7 {
     color:#904639;
     width: 400px;
     margin-left: 20px;
 }
-
 .text8 {
     width: 400px;
     margin-left: 20px;
 }
-
 span.yellow {
     color: #fff000;
 }
-
 div.silver {
     color: #6b676b;
     margin-left:20px;
 }
-
 /*COULEURS POUR TEXTE */
 .grote {
     color:#904639;
@@ -327,10 +312,7 @@ div.formatext2 {
 div.formatext4 {
     color:#D2D7DD;
     font-size: 25px;
-    
-    
     width: 420px;
-
     margin: 0 auto;
 }
 
@@ -341,17 +323,13 @@ div.formatext3 {
 }
 
 div.ccicampus {
-  
     margin-top: 15px;
     font-size: 40px;
-
-
 }
 
 div.goulden {
     font-size: 40px;
     margin-top: 15px;
-
 }
 
 div.texteetimage {
@@ -366,9 +344,7 @@ div.texteetimage {
     
 
 h3 {
-   
     display: block;
-    
 }
 
 div.temoignage {
@@ -383,41 +359,55 @@ div.temoignage:hover {
 
 /* SECTION ENTREPRISES DEBUT */
 
+div.entreprisesprincipal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    
+    height: 700px;
+
+}
+
 h8 {
     font-family: 'Groteskia';
+    color:#000 ;
 }
 
 div.entreprises {
     display: flex;
-    justify-content: space-evenly;
+       justify-content: space-evenly;
     align-items: baseline;
     
 }
 
-div.sectionentreprises {
-    
-    height: 510px;
+div.sectionentreprises {  
+   
+    height: 725px;
+
 
 }
 
 /*DIV SEW*/
 div.Sew-usocome {
     font-family: 'Groteskia';
-    
     width: 397px;
+}
 
+div.macimg {
+    text-align: center;
 }
 
 div.entreprisestext1 {
     font-family: 'Groteskia';
     font-size: 35px;
-    
+    display: list-item;
+    list-style-type: style type circle;
 }
 
 div.entreprisestext2 {
     font-family: 'Groteskia';
     font-size: 20px;
-    
     margin-top: 5px;
     
 }
@@ -428,8 +418,74 @@ div.datestext {
     color: #6b676b;
 }
 
+div.entreprises2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+
+div.MairieHaguenau {
+    width: 397px;
+}
+
+div.mac {
+    width: 397px;
+}
+
+div.PoleCulturel {
+    font-family: 'Groteskia';
+    font-size: 30px;
+    width: 397px;
+}
 
 /* FIN SECTION ENTREPRISES */
+
+/* SECTION DIPLOMES */
+
+div.sectiondiplomes {
+    background: #904639;
+    font-family: 'Groteskia';
+    height: 1000px;
+}
+
+
+div.imgdiplome {
+    
+    height: 1370px;
+    margin-top: -20px;
+    height: 635px;
+    
+}
+
+/* je ''désactive'' en qql sorte la transition et l'agrandissement car pas utile*/
+div.imgdiplome img {
+    transition: none;
+    transition-duration:inherit;
+    /* object-fit: none; */
+    width: -webkit-fill-available;
+    
+}
+
+/*désactivatin du hover pour que l'image ne se transforme pas*/
+div.imgdiplome img:hover {
+    transform: none;
+}
+
+h9 {
+    color: #fff;
+}
+
+div.experience {
+    width: 500px;
+    margin-left:60px ;
+    font-size: 34px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 700px;
+    display: block;
+    
+}
 
 /* LIEN HYPERTEXT VERS LA VIDEO BAC*/
 
