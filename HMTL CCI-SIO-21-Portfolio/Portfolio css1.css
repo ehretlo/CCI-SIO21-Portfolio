@@ -38,6 +38,8 @@ h1#header {
     width: 100%;
     background: url(pic/fond_premiere_page.jpg);
     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     
 }
 
@@ -218,6 +220,7 @@ div.text3 {
 
 }
 
+
 /* image stylisée et son hover*/
 
 img{
@@ -234,7 +237,7 @@ img:hover {
 
 .text5 {
     width: 400px;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 .text6 {
     width: 400px;
@@ -383,7 +386,9 @@ div.entreprises {
 
 div.sectionentreprises {  
    
-    height: 725px;
+    
+    height: 790px;
+
 
 
 }
@@ -446,16 +451,23 @@ div.PoleCulturel {
 div.sectiondiplomes {
     background: #904639;
     font-family: 'Groteskia';
-    height: 1000px;
+    
+    display: block;
+    height: 920px;
+
 }
 
 
 div.imgdiplome {
     
-    height: 1370px;
+    
+    
+
     margin-top: -20px;
     height: 635px;
+    margin: auto;
     
+    display: block;
 }
 
 /* je ''désactive'' en qql sorte la transition et l'agrandissement car pas utile*/
@@ -477,15 +489,113 @@ h9 {
 }
 
 div.experience {
-    width: 500px;
+    
     margin-left:60px ;
     font-size: 34px;
     margin-right: 50px;
-    position: relative;
+   width: auto;
     bottom: 700px;
     display: block;
     
 }
+
+
+/* FIN SECTION DIPLOME */
+
+/* DEBUT SECTION DIPLOME */
+
+/*background position va centrer l'image verticalement et horizontalement à tout moment*/
+/*no repeat signifie que ce n'est pas une mosaique*/
+div.sectioncontacts {
+    font-family: 'Groteskia';
+    background-image: url(./pic/fond_contacts2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 890px;
+    background-size:cover;
+}
+
+h10 {
+    font-size: 55px;
+    margin: auto;
+    display: block;
+}
+
+div.textcontacts2 {
+    font-size: 35px;
+}
+
+div.textcontactsprincipal {
+    display: flex;
+    
+    height: 360px;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*__________________________________________partie 5 intégrations__________________________________________*/
+
+/*redimensionnement des images à 80px*/
+div.github img, div.Gmail img, div.courriel img {
+    width: 80px;
+}
+
+/*contour et dimensions de chaque div de RS*/
+div.github, div.teams, div.gmail, div.courriel {
+    width: 100px;
+    height: 100px;
+   display: flex;
+   justify-content: space-around;
+   background-color: #D2D7DD;
+   border-radius: 10px;
+   box-shadow: 10px 5px 5px #000;
+   align-items: center;
+}
+
+div.linkedin {
+    text-align: -webkit-center;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+/*GITHUB*/
+
+div.badge-base LI-profile-badge {
+    display: flex;
+}
+
+/*centrage des div respectives*/
+div.integrationrs {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 430px;
+    margin-bottom: 100px;
+}
+
+/*droits*/
+
+div.droits {
+   
+}
+
+footer {
+    background:#ccc;
+    bottom:0;
+    background-color: #D2D7DD;
+    font-size: 30px;
+    height: 50px;
+    
+    
+
+
+
+}
+
 
 /* LIEN HYPERTEXT VERS LA VIDEO BAC*/
 
