@@ -8,6 +8,10 @@
 
   }
 
+ ul {
+   display: none;
+ }
+
   div.textandimage {
    
     font-size: 15px;
@@ -41,10 +45,8 @@
       font-size: 25px;
     }
 /* a tester, bizarre*/
-    ul {
-      display: flex;
-    
-    }
+/*__________________________________________________*/
+/*_________________________________________________*/
 
     div.sectionquisuisje {
  
@@ -92,7 +94,7 @@
 
   div.sectionmesformations {
     
-    height: 930px;
+    height: 850px;
 
 
   }
@@ -158,6 +160,7 @@
 
   div.sectiondiplomes {
     display: block;
+    height: 370px;
   }
 
   div.imgdiplome {
@@ -200,6 +203,14 @@ div.entreprises2 {
     width: 80px;
   }
   
+  div#contacts {
+    margin-top: 100px
+  }
+
+  div.sectioncontacts {
+    height: 960px;
+
+  }
 
 /*responsive textes entreprise*/
 

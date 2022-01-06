@@ -462,9 +462,11 @@ div.imgdiplome {
     
     
     
+    height: 300px;
+
 
     margin-top: -20px;
-    height: 635px;
+    
     margin: auto;
     
     display: block;
@@ -476,6 +478,7 @@ div.imgdiplome img {
     transition-duration:inherit;
     /* object-fit: none; */
     width: -webkit-fill-available;
+
     
 }
 
@@ -511,7 +514,8 @@ div.sectioncontacts {
     background-image: url(./pic/fond_contacts2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    height: 890px;
+    height: 960px;
+
     background-size:cover;
 }
 
@@ -573,15 +577,12 @@ div.integrationrs {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
-    height: 430px;
+   
     margin-bottom: 100px;
+    height: 500px;
 }
 
 /*droits*/
-
-div.droits {
-   
-}
 
 footer {
     background:#ccc;
