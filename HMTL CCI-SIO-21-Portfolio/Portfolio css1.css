@@ -124,25 +124,29 @@ a:hover {
 l'élément &nbsp; sert à ajouter un espace supplémentaire dans un texte. &ensp pour 2 espaces etc.. */
 
 .presentationtext {
-    font-size: 115px;
+    font-size: 105px;
     color: white;
     font-family: 'Groteskia';
-    width: 1000px;
-    margin-left: 120px;
-    margin-top: 60px;
+    
+    width: 1100px;
+
+    margin-left: 80px;
+    
 }
 
+/* cette div s'occupe de centrer la div dex et la div vertical*/
 div.centertext {
-    
-    margin-left: 50px;
+    margin-left: 90px;
     margin-right:auto;
     margin-top: 10px;
-    display: flex;
+    display: INLINE-BLOCK;
+    
+    
 }
 
 .vertical {
     border-left: 2px solid #fff;
-    height: 670px;
+    height: 500px;
         
 }
 
@@ -173,7 +177,7 @@ div.textandimage {
     font-size: 26px;
     display: flex;
     height: 500px;
-    width: 1500px;
+   
       margin: auto;
       justify-content: center;
     flex-direction: column;
@@ -333,6 +337,8 @@ div.ccicampus {
 div.goulden {
     font-size: 40px;
     margin-top: 15px;
+    
+    
 }
 
 div.texteetimage {
@@ -385,12 +391,7 @@ div.entreprises {
 }
 
 div.sectionentreprises {  
-   
-    
     height: 790px;
-
-
-
 }
 
 /*DIV SEW*/
@@ -591,10 +592,12 @@ footer {
     font-size: 30px;
     height: 50px;
     
+}
+
+div.droits {
+    text-align: center;
     
-
-
-
+    
 }
 
 
