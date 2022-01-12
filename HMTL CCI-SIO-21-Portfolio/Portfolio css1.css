@@ -1,6 +1,7 @@
 /*ralenti le scroll quand un lien est cliqué, révolutionnaire*/
 html {
     scroll-behavior: smooth;
+    
 }
 
 body{
@@ -180,8 +181,8 @@ div.textandimage {
    
     font-size: 26px;
     display: flex;
-    height: 500px;
    
+    height: 350px;
       margin: auto;
       justify-content: center;
     flex-direction: column;
@@ -599,11 +600,11 @@ footer {
 }
 
 div.droits {
-    text-align: center;
-    
+    width:650px;
+    float:left;
+    display: block;
     
 }
-
 
 /* LIEN HYPERTEXT VERS LA VIDEO BAC*/
 
