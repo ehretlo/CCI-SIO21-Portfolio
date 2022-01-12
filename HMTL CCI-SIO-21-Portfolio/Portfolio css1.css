@@ -1,3 +1,7 @@
+/*ralenti le scroll quand un lien est cliqué, révolutionnaire*/
+html {
+    scroll-behavior: smooth;
+}
 
 body{
     margin:0px;
