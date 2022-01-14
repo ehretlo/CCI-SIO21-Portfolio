@@ -599,7 +599,7 @@ footer {
     
 }
 
-div.droits {
+div.droits, div.sources {
     width:650px;
     float:left;
     display: block;
