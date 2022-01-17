@@ -555,7 +555,7 @@ div.github img, div.Gmail img, div.courriel img {
 }
 
 /*contour et dimensions de chaque div de RS*/
-div.github, div.teams, div.gmail, div.courriel {
+div.github, div.outlook, div.gmail, div.courriel {
     width: 100px;
     height: 100px;
    display: flex;
@@ -564,6 +564,11 @@ div.github, div.teams, div.gmail, div.courriel {
    border-radius: 10px;
    box-shadow: 10px 5px 5px #000;
    align-items: center;
+   margin: auto;
+}
+
+div.outlook img {
+    width: 70px;
 }
 
 div.linkedin {
@@ -587,7 +592,7 @@ div.integrationrs {
     align-items: flex-start;
    
     margin-bottom: 100px;
-    height: 500px;
+    
 }
 
 /*droits*/
