@@ -109,6 +109,7 @@ li a {
     text-decoration: none;
     font-family:'Groteskia';
     font-size: 22px;
+    cursor:url('cursors/handcursor1.cur'), auto;
 
 }
 
@@ -237,6 +238,7 @@ img{
     object-fit:cover;
 	transition-property: transform;
 	transition-duration: 500ms;
+    cursor:url('cursors/handcursor1.cur'), auto;
 }
 
 img:hover {
@@ -596,15 +598,19 @@ footer {
     background-color: #D2D7DD;
     font-size: 30px;
     height: 50px;
+    font-family:'Groteskia';
     
+    display: flex;
+    justify-content: space-evenly;
 }
 
 div.droits, div.sources {
-    width:650px;
     float:left;
     display: block;
-    
+    text-align: center;
 }
+
+
 
 /* LIEN HYPERTEXT VERS LA VIDEO BAC*/
 
@@ -671,3 +677,8 @@ h3:before {
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
+
+  body {
+    cursor: url('cursors/cursor1.cur'), auto;
+  }
+  

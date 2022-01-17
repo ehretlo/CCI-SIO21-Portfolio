@@ -211,7 +211,7 @@ div.entreprises2 {
   /* droits */
   div.droits {
     display: block;
-    margin-top: 20px ;
+
   }
 
   div.github img, div.Gmail img, div.courriel img, div.teams img{
@@ -229,6 +229,11 @@ div.entreprises2 {
   div.sectioncontacts {
     height: 960px;
 
+  }
+
+  footer {
+    height: 90px;
+    padding-left: 50px;
   }
 
 /*responsive textes entreprise*/
