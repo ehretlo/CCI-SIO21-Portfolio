@@ -610,11 +610,14 @@ footer {
 }
 
 div.droits, div.sources {
-    float:left;
+   
     display: block;
     text-align: center;
 }
 
+div.12 {
+    display:block;
+}
 
 
 /* LIEN HYPERTEXT VERS LA VIDEO BAC*/
