@@ -133,11 +133,8 @@ l'élément &nbsp; sert à ajouter un espace supplémentaire dans un texte. &ens
     font-size: 105px;
     color: white;
     font-family: 'Groteskia';
-    
     width: 1100px;
-
     margin-left: 80px;
-    
 }
 
 /* cette div s'occupe de centrer la div dex et la div vertical*/
@@ -146,14 +143,11 @@ div.centertext {
     margin-right:auto;
     margin-top: 10px;
     display: INLINE-BLOCK;
-    
-    
 }
 
 .vertical {
     border-left: 2px solid #fff;
-    height: 500px;
-        
+    height: 500px; 
 }
 
 div.vertical {
@@ -174,15 +168,12 @@ div.sectionquisuisje {
     background: #D2D7DD;
     font-family: 'Groteskia';
     margin: 0 auto;
-    
     height: 550px;
 }
 
 div.textandimage {
-   
     font-size: 26px;
     display: flex;
-   
     height: 350px;
       margin: auto;
       justify-content: center;
@@ -192,25 +183,19 @@ div.textandimage {
 }
 
 div.text1 {
-    
     margin-top: 0px;
     display: flex;
     margin-left:25px;
     width: 1000px;
     margin-left: 0px;
-
-    
     margin-right: 0px;
-
     margin-left: 20px;
     width: 400px;
-  
 }
 
 div.text2 {
     width: 400px;
     margin-left: 20px;
-
 }
 
 .text4 {
@@ -221,13 +206,11 @@ div.text2 {
 .text3 {
     width: 400px;
     margin-left: 30px;
- 
 }
 div.text3 {
     margin-top: 0px;
     margin-left: 25px;
     margin-left: 30px;
-
 }
 
 
@@ -312,15 +295,12 @@ h7 {
 div.formatext1 {
     color: #D2D7DD;
     font-size: 30px;
-   
 }
 
 div.formatext2 {
     color:#D2D7DD;
     font-size: 25px;
-    
     width: 500px;
-   
 }
 
 div.formatext4 {
@@ -344,8 +324,6 @@ div.ccicampus {
 div.goulden {
     font-size: 40px;
     margin-top: 15px;
-    
-    
 }
 
 div.texteetimage {
@@ -380,9 +358,7 @@ div.entreprisesprincipal {
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
-    
     height: 700px;
-
 }
 
 h8 {
@@ -394,7 +370,6 @@ div.entreprises {
     display: flex;
        justify-content: space-evenly;
     align-items: baseline;
-    
 }
 
 div.sectionentreprises {  
@@ -422,7 +397,6 @@ div.entreprisestext2 {
     font-family: 'Groteskia';
     font-size: 20px;
     margin-top: 5px;
-    
 }
 
 div.datestext {
@@ -459,24 +433,15 @@ div.PoleCulturel {
 div.sectiondiplomes {
     background: #904639;
     font-family: 'Groteskia';
-    
     display: block;
     height: 920px;
-
 }
 
 
 div.imgdiplome {
-    
-    
-    
     height: 300px;
-
-
     margin-top: -20px;
-    
     margin: auto;
-    
     display: block;
 }
 
@@ -486,8 +451,6 @@ div.imgdiplome img {
     transition-duration:inherit;
     /* object-fit: none; */
     width: -webkit-fill-available;
-
-    
 }
 
 /*désactivatin du hover pour que l'image ne se transforme pas*/
@@ -500,14 +463,12 @@ h9 {
 }
 
 div.experience {
-    
     margin-left:60px ;
     font-size: 34px;
     margin-right: 50px;
    width: auto;
     bottom: 700px;
     display: block;
-    
 }
 
 
@@ -523,7 +484,6 @@ div.sectioncontacts {
     background-position: center center;
     background-repeat: no-repeat;
     height: 960px;
-
     background-size:cover;
 }
 
@@ -539,9 +499,7 @@ div.textcontacts2 {
 
 div.textcontactsprincipal {
     display: flex;
-    
     height: 360px;
-
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -573,10 +531,8 @@ div.outlook img {
 
 div.linkedin {
     text-align: -webkit-center;
-    
     margin-top: 20px;
     margin-bottom: 20px;
-
 }
 
 /*GITHUB*/
@@ -590,9 +546,7 @@ div.integrationrs {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
-   
     margin-bottom: 100px;
-    
 }
 
 /*droits*/
@@ -604,19 +558,14 @@ footer {
     font-size: 30px;
     height: 50px;
     font-family:'Groteskia';
-    
     display: flex;
     justify-content: space-evenly;
 }
 
 div.droits, div.sources {
-   
     display: block;
     text-align: center;
 }
-
-
-
 
 /* LIEN HYPERTEXT VERS LA VIDEO BAC*/
 
@@ -654,7 +603,6 @@ h3:before {
     border-radius: 10px;
     background-color: #904639;
     display: block;
- 
 }
 
 .styled:active {

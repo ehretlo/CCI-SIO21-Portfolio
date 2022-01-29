@@ -3,9 +3,7 @@
   /*image respnsive de fond pour aller sur les écrans*/
   .banner  {
     height: auto;
-    
     height: 630px;
-
   }
 
  /* redimensionnement de la nav bar*/
@@ -19,7 +17,6 @@
      font-size: 35px;
    }
 
-
   div.textandimage {
     font-size: 50px;
     height: auto;
@@ -32,9 +29,6 @@
    display: block;
    display: grid;
   }
-
-
-
   .vertical {
     height: 300px;
   }
@@ -46,7 +40,6 @@
 /* reconnu mais fonctionne pas*/
     h1 {
       display: block;
-     
     }
 
     h1#header {
@@ -57,21 +50,16 @@
 /*_________________________________________________*/
 
     div.sectionquisuisje {
- 
     HEIGHT:1800px;
     font-size: 60px;
-    
     }
 
   .presentationtext {
-    
     width: 800px;
     font-size: 70px;
     height: 550px;
     margin-left: 35px;
-    margin-top: 80px
-
-    
+    margin-top: 80px;
   }
   
     img {
@@ -79,7 +67,6 @@
       margin: auto;
      width: 50% auto;
     margin-top: 20px;
-    
     }
   
     div.text1, div.text2, div.text3, div.image1, .styled {
@@ -94,9 +81,7 @@
   }
 
   div.text3 {
-    
     margin-top: 25px;
-
   }
 
   div.text3, div.text5, div.text6, div.text7 {
@@ -117,11 +102,6 @@
   display: block;
   margin-top: 15px;
   }
-
-  div.imagecci, div.imagegoulden {
-    
-  }
-
 
   /* responsive de mes formations */
   div.formatext1, div.formatext2 , div.formatext3 {
@@ -154,9 +134,6 @@
 
 
 /* responsive partie à droite de qui suis je */
-
-
-
   div.text3 {
     margin-top: 30px;
   }
@@ -197,10 +174,8 @@ div.entreprises2 {
 }
 
   div.integrationrs {
-    
     text-align: center;
     display: list-item;
-   
   }
 
   div.github, div.teams, div.gmail, div.courriel {
@@ -211,7 +186,6 @@ div.entreprises2 {
   /* droits */
   div.droits {
     display: block;
-
   }
 
   div.github img, div.Gmail img, div.courriel img, div.teams img{
@@ -228,7 +202,6 @@ div.entreprises2 {
 
   div.sectioncontacts {
     height: 1000px;
-
   }
 
 /*responsive textes entreprise*/
@@ -236,7 +209,6 @@ div.entreprises2 {
 div.sectionentreprises {
   display: block;
   text-align: center;
-  
   height: 1200px;
 }
 
@@ -244,8 +216,6 @@ div.sectionentreprises {
 
 div.entreprises {
   display: block;
-  
-  
 }
 
 div.SEW-Usocome,div.dreal,div.CHH {
