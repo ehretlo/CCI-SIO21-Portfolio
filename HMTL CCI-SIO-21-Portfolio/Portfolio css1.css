@@ -573,6 +573,10 @@ a {
     color: black;
 }
 
+div.sources a {
+    cursor: url('cursors/handcursor1.cur');
+}
+
 /*_______________ trait !!!__________________ */
 
 h3:before {
