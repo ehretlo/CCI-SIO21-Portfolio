@@ -560,6 +560,7 @@ footer {
     font-family:'Groteskia';
     display: flex;
     justify-content: space-evenly;
+    padding-right: 70px;
 }
 
 div.droits, div.sources {
@@ -607,6 +608,10 @@ h3:before {
     border-radius: 10px;
     background-color: #904639;
     display: block;
+}
+
+input.favorite.styled {
+    cursor: url('cursors/cursor1.cur');
 }
 
 .styled:active {
