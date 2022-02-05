@@ -1,0 +1,223 @@
+@media ALL and (max-width: 1024px) {
+
+
+  /*PREMIERE PAGE BANNER ET NAVBAR*/
+  /*image respnsive de fond pour aller sur les écrans*/
+  .banner  {
+    height: auto;
+    height: 630px;
+  }
+
+ /* redimensionnement de la nav bar*/
+  ul {
+    width: 900px;
+   }
+  
+   li a {
+     font-size: 35px;
+   }
+
+  div.textandimage {
+    font-size: 50px;
+    height: auto;
+    width: auto;
+      margin: auto;
+      justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+   display: block;
+   display: grid;
+  }
+  .vertical {
+    height: 300px;
+  }
+  
+    input.favorite.styled {
+      display: block;
+      
+    }
+
+    h1#header {
+      font-size: 45px;
+    }
+/*__________________________________________________*/
+/*FIN PREMIERE PAGE BANNER ET NAVBAR*/
+/*_________________________________________________*/
+/* ______________________QUI SUIS JE ______________________*/
+
+    div.sectionquisuisje {
+    HEIGHT:1800px;
+    font-size: 60px;
+    }
+
+  .presentationtext {
+    width: 800px;
+    font-size: 70px;
+    height: 550px;
+    margin-left: 35px;
+    margin-top: 120px;
+  }
+  
+    img {
+      display: block;
+      margin: auto;
+     width: 50% auto;
+    margin-top: 20px;
+    }
+  
+    div.text1, div.text2, div.text3, div.image1, .styled {
+      width: 900px;
+    }
+
+    div.texteetimage {
+    display: block;
+    margin: 0 auto;
+  }
+
+  div.text3 {
+    margin-top: 25px;
+  }
+
+  div.text3, div.text5, div.text6, div.text7 {
+    display: inline-block;
+    width: 900px;
+  }
+/* responsive partie à droite de qui suis je */
+div.text3 {
+  margin-top: 30px;
+}
+
+div.avenir {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+div.entreprisesprincipal {
+  height: 1000px;
+}
+
+div.sectiondiplomes {
+  display: block;
+  height: 370px;
+}
+
+div.imgdiplome {
+  display: block;
+}
+
+/* REDIMENSIONNEMENT TITRE TELEPHONE */
+h7, h8, h9 {
+  font-size: 60px;
+}
+
+/*__________________________________________________*/
+/*FIN SECTION QUI SUIS JE*/
+/*_________________________________________________*/
+/* ______________________SECTION MES FORMATIONS______________________*/
+
+/* section pour agrandir le gris foncé de section mes formations*/
+
+  div.sectionmesformations {
+    height: 1230px;
+    
+  }
+
+  div.goulden, div.ccicampus {
+  text-align: center;
+  font-size: 50px;
+  display: block;
+  margin-top: 15px;
+  }
+
+  /* responsive de mes formations */
+  div.formatext1, div.formatext2 , div.formatext3 {
+  text-align: center;
+  font-size: 45px;
+  }
+
+  div.formatext2, div.formatext4 {
+    margin: auto;
+    font-size: 45px;
+    width: 670px;
+    TEXT-ALIGN: center;
+  }
+
+  div.temoignage {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 45px;
+    width: 600px;
+  }
+
+  div.silver {
+    text-align: center;
+  }
+
+  div.entreprisestext1 {
+    font-size: 45px;
+  }
+
+  div.entreprises2 {
+    display: flex;
+      margin: 0 auto;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+/*fin*/
+  /*responsive textes entreprise*/
+
+div.sectionentreprises {
+  display: block;
+  text-align: center;
+  height: 1200px;
+}
+
+div.entreprises {
+  display: block;
+}
+
+div.SEW-Usocome,div.dreal,div.CHH {
+ margin: auto;
+}
+
+/*__________________________________________________*/
+/*FIN SECTION ENTREPRISES*/
+/*_________________________________________________*/
+/* ______________________SECTION CONTACTS______________________*/
+  div.integrationrs {
+    text-align: center;
+    display: list-item;
+  }
+
+  div.github, div.teams, div.gmail, div.courriel {
+    margin: 0 auto;
+    display: inline-block;
+  }
+
+  /* droits */
+  div.droits {
+    display: block;
+  }
+
+  div.github img, div.Gmail img, div.courriel img, div.teams img{
+    margin-top: 11px;
+  }
+
+  div.teams img {
+    width: 80px;
+  }
+  
+  div#contacts {
+    margin-top: 100px
+  }
+
+  div.sectioncontacts {
+    height: 1000px;
+  }
+/*FIN SECTION CONTACTS*/
+}
+
