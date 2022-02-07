@@ -71,7 +71,9 @@
     width: 450px;
     }
 
-
+    h11 {
+      font-size: 50px;
+  }
 
     div.text1, div.text2, div.text3, div.image1, .styled {
       width: 900px;
@@ -140,7 +142,7 @@ h7, h8, h9 {
 
   div.goulden, div.ccicampus {
   text-align: center;
-  font-size: 50px;
+  font-size: 65px;
   display: block;
   margin-top: 15px;
   }

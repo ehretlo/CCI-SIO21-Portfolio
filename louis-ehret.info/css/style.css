@@ -1,7 +1,10 @@
+/* ______________________PARTIE GENERALE______________________*/
+/* PARTIE FONT FACE, HTML (scroll, body, curseur), BARRE DE NAV, HOVER*/
+
 /*ralenti le scroll quand un lien est cliqué, révolutionnaire*/
 html {
     scroll-behavior: smooth;
-    
+    cursor: url('../cursors/cursor1.cur'), auto;
 }
 
 body{
@@ -34,22 +37,6 @@ h1#header {
     padding-top: 40px;
     top: 0px;
     height: 70px;
-}
-
-/* fond qui bouge. à laisser */
-.banner {
-    margin-top: -20px;
-    height: 870px ;
-    width: 100%;
-    background: url('../pic/fond_premiere_page.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    
-}
-
-div.banner {
-    margin-top: 60px;
 }
 
 /*<h1 id="header" id="h1" style="width: 499px; height: 70px;"> manipuler la hauteur de la nav bar 1 */
@@ -109,8 +96,7 @@ li a {
     text-decoration: none;
     font-family:'Groteskia';
     font-size: 22px;
-    cursor:url('cursors/handcursor1.cur'), auto;
-
+    cursor:url('../cursors/handcursor1.cur'), auto;
 }
 
 /* mettre de la couleur autour des menus
@@ -123,7 +109,26 @@ li a:hover:not(.active) {
 a:hover {
     color: #904639;
     font-family: 'Groteskia';
+    
+}
 
+/* ______________________ FIN PARTIE GENERALE______________________*/
+/*___________________________________________________________________*/
+/* ______________________ DEBUT BANNER DE PRESENTATION______________________*/
+/* fond qui bouge. à laisser */
+.banner {
+    margin-top: -20px;
+    height: 870px ;
+    width: 100%;
+    background: url('../pic/fond_premiere_page.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+
+div.banner {
+    margin-top: 60px;
 }
 
 /* EXPLICATIONS HTML 
@@ -221,7 +226,7 @@ img{
     object-fit:cover;
 	transition-property: transform;
 	transition-duration: 500ms;
-    cursor:url('cursors/handcursor1.cur'), auto;
+    cursor:url('../cursors/handcursor1.cur'), auto;
 }
 
 img:hover {
@@ -344,14 +349,19 @@ h3 {
 div.temoignage {
     font-size: 20px;
     width: 400px;
+}
 
+div.temoignage a {
+    cursor: url('../cursors/handcursor1.cur'), auto;
 }
 
 div.temoignage:hover {
     color: #fff;
 }
 
-/* SECTION ENTREPRISES DEBUT */
+/* ______________________ FIN FORMATIONS_____________________*/
+/*___________________________________________________________________*/
+/* ______________________DEBUT SECTION ENTREPRISES______________________*/
 
 div.entreprisesprincipal {
     display: flex;
@@ -426,9 +436,9 @@ div.PoleCulturel {
     width: 397px;
 }
 
-/* FIN SECTION ENTREPRISES */
-
-/* SECTION DIPLOMES */
+/* ______________________ FIN SECTION ENTREPRISE______________________*/
+/*___________________________________________________________________*/
+/* ______________________ DEBUT SECTION DIPLOMES______________________*/
 
 div.sectiondiplomes {
     background: #904639;
@@ -471,10 +481,9 @@ div.experience {
     display: block;
 }
 
-
-/* FIN SECTION DIPLOME */
-
-/* DEBUT SECTION DIPLOME */
+/* ______________________ FIN SECTION DIPLOMES______________________*/
+/*___________________________________________________________________*/
+/* ______________________ DEBUT SECTION CONTACTS______________________*/
 
 /*background position va centrer l'image verticalement et horizontalement à tout moment*/
 /*no repeat signifie que ce n'est pas une mosaique*/
@@ -575,7 +584,7 @@ a {
 }
 
 div.sources a {
-    cursor: url('cursors/handcursor1.cur');
+    cursor: url('../cursors/handcursor1.cur');
 }
 
 /*_______________ trait !!!__________________ */
@@ -611,7 +620,7 @@ h3:before {
 }
 
 input.favorite.styled {
-    cursor: url('cursors/cursor1.cur');
+    cursor: url('../cursors/cursor1.cur');
 }
 
 .styled:active {
@@ -642,6 +651,6 @@ input.favorite.styled {
   }
 
   body {
-    cursor: url('cursors/cursor1.cur'), auto;
+    cursor: url('../cursors/cursor1.cur') auto;
   }
   
