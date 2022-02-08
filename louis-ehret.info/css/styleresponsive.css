@@ -114,6 +114,10 @@ div.entreprisesprincipal {
   align-items: center;
 }
 
+div.sectionentreprises h3 {
+  font-size: 55px;
+}
+
 div.sectiondiplomes {
   display: block;
   height: 370px;
@@ -137,8 +141,12 @@ h7, h8, h9 {
 
   div.sectionmesformations {
     height: 1500px;
-    
   }
+
+  div.sectionmesformations h3 {
+    color: #fff;
+    font-size: 55px;
+}
 
   div.goulden, div.ccicampus {
   text-align: center;
@@ -187,6 +195,10 @@ h7, h8, h9 {
       align-items: center;
   }
   
+  div.sectiondiplomes h3 {
+    font-size: 45px;
+  }
+
 /*fin*/
   /*responsive textes entreprise*/
 
@@ -241,6 +253,7 @@ div.SEW-Usocome,div.dreal,div.CHH {
 
   div.sectioncontacts {
     height: 1000px;
+    padding-top: 100px;
   }
 
   div.outlook {
