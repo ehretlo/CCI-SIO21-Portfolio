@@ -43,12 +43,12 @@ h1#header {
 
 @font-face {
     font-family: 'Groteskia';
-    src: url('C:\Users\phyle\Desktop\HMTL CCI-SIO-21-Portfolio\font\groteskia\GROTESKIA.otf'); 
+    src: url('../font/GROTESKIA.otf'); 
 }
 
 @font-face {
-    font-family: 'signatureblack';
-    src: url('C:\Users\phyle\Desktop\HMTL CCI-SIO-21-Portfolio\font\Blacksiganture\Blacksignature.otf');
+    font-family: 'signaturevp';
+    src: url('../font/SignatureVP-PersonalUse.ttf');
 }
 
 .policesignature {
