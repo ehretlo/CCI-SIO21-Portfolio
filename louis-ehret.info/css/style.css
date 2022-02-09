@@ -519,12 +519,12 @@ div.textcontactsprincipal {
 /*__________________________________________partie 5 intégrations__________________________________________*/
 
 /*redimensionnement des images à 80px*/
-div.Github img, div.Gmail img, div.Courriel img, div.Outlook img {
+div.Github img, div.Gmail img, div.Courriel img, div.Outlook img, div.linkedin img {
     width: 80px;
 }
 
 /*contour et dimensions de chaque div de RS*/
-div.Github, div.Outlook, div.Gmail, div.Courriel {
+div.Github, div.Outlook, div.Gmail, div.Courriel, div.linkedin {
     width: 100px;
     height: 100px;
    display: flex;
