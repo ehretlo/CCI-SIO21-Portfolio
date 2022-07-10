@@ -199,6 +199,10 @@ h7, h8, h9 {
     font-size: 45px;
   }
 
+  div.sectiondiplomes {
+    padding-bottom: 250px;
+  }
+
 /*fin*/
   /*responsive textes entreprise*/
 
@@ -221,6 +225,33 @@ div.SEW-Usocome,div.dreal,div.CHH {
 
 /*__________________________________________________*/
 /*FIN SECTION ENTREPRISES*/
+/* ______________________SECTION PROJETS______________________*/
+
+div.villawagner, div.w3c, div.Sportaddict {
+  width:80%;
+  padding-bottom: 75px;
+  
+}
+div.projets1 div.icann, div.w3c, div.Sportaddict {
+  padding-bottom: 50px;
+  width: 80%;
+}
+
+div.sectionprojets {
+  height: 2000px;
+}
+
+div.Titreprojets {
+  font-size: 45px;
+  display: block;
+}
+
+div.projets1 w3c img {
+  
+  width: 500px;
+
+}
+
 /*_________________________________________________*/
 /* ______________________SECTION CONTACTS______________________*/
   div.integrationrs {
