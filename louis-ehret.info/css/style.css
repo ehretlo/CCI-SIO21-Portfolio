@@ -496,7 +496,7 @@ div.sectionprojets h3 {
 
 div.sectionprojets {
     background-color: #D2D7DD;
-    height: 1100px;
+    height: 1550px
 }
 
 div.premierprojet {
@@ -514,7 +514,7 @@ div.projets1 {
     text-align: center;
 }
 
-div.villawagner, div.icann, div.w3c, div.Sportaddict, div.siopedia {
+div.villawagner, div.icann, div.w3c, div.Sportaddict, div.siopedia, div.Kryptos {
     width: 30%;
     height: 375px;
     margin: 10px;
