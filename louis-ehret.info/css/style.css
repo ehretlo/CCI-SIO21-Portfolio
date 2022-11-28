@@ -496,7 +496,6 @@ div.sectionprojets h3 {
 
 div.sectionprojets {
     background-color: #D2D7DD;
-    height: 1550px
 }
 
 div.premierprojet {
@@ -506,15 +505,25 @@ div.premierprojet {
     height: 55px;
 }
 
+div.deuxiemeprojet {
+    margin-top: 30px;
+    font-family: 'Groteskia';
+    text-align: center;
+    font-size: 20px;
+    height: 55px;
+    font-size: 30px;
+}
+
 div.projets1 {
     font-family: 'Groteskia';
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: center;
+    padding-bottom: 30px;
 }
 
-div.villawagner, div.icann, div.w3c, div.Sportaddict, div.siopedia, div.Kryptos {
+div.villawagner, div.icann, div.w3c, div.Sportaddict, div.siopedia, div.Kryptos, div.AP1, div.AP2 {
     width: 30%;
     height: 375px;
     margin: 10px;
