@@ -298,5 +298,26 @@ div.AP1 img {
   }
   
 /*FIN SECTION CONTACTS*/
+
+div.mentions {
+  font-size: 50px;
 }
 
+div.textesmentions {
+  font-size: 35px;
+}
+
+div.titresmentions, div.titresmentions1 {
+  font-size: 45px;
+}
+
+.modalDialog > div {
+  width: 700px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background-color: #D2D7DD;
+}
+
+}
