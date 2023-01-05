@@ -523,7 +523,7 @@ div.projets1 {
     padding-bottom: 30px;
 }
 
-div.villawagner, div.icann, div.w3c, div.Sportaddict, div.siopedia, div.Kryptos, div.AP1, div.AP2 {
+div.villawagner, div.icann, div.w3c, div.Sportaddict, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3 {
     width: 30%;
     height: 375px;
     margin: 10px;
@@ -579,6 +579,10 @@ div.coursprojets {
 
 div.Sportaddict img {
     object-fit: none;
+}
+
+div.AP1, div.AP3 img {
+    object-fit: contain;
 }
 
 /* ______________________ FIN SECTION PROJETS______________________*/
