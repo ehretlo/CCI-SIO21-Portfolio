@@ -10,13 +10,6 @@
   }
 
  /* redimensionnement de la nav bar*/
-  ul {
-    width: 900px;
-   }
-  
-   li a {
-     font-size: 35px;
-   }
 
   div.textandimage {
     font-size: 50px;
@@ -35,12 +28,7 @@
       font-size: xx-large;
     }
 
-    h1#header {
-      font-size: 45px;
-    }
-
-    H1#header.h1
-/*__________________________________________________*/
+___________________________________*/
 /*FIN PREMIERE PAGE BANNER ET NAVBAR*/
 /*_________________________________________________*/
 /* ______________________QUI SUIS JE ______________________*/
@@ -116,7 +104,6 @@ div.sectionentreprises h3 {
 
 div.sectiondiplomes {
   display: block;
-  height: 370px;
 }
 
 div.imgdiplome {

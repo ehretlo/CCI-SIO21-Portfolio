@@ -1,8 +1,8 @@
-function afficher_div_masque() {
-    var div = document.getElementById("toto");
-    if (div.style.display === "none") {
-      div.style.display = "block";
+  function toggleNavbar() {
+    var x = document.getElementById("myNavbar");
+    if (x.className === "navbar-right") {
+        x.className += " responsive";
     } else {
-      div.style.display = "none";
+        x.className = "navbar-right";
     }
-  }
+}
