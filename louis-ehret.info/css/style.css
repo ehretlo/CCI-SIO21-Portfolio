@@ -435,7 +435,7 @@ div.sectionprojets h3 {
 }
 
 div.sectionprojets {
-    background-color: #D2D7DD;
+    background-color: #A5A9AD;
 }
 
 div.premierprojet {
@@ -461,7 +461,9 @@ div.projets1 {
     justify-content: space-evenly;
     text-align: center;
     padding-bottom: 30px;
+    
 }
+
 
 div.villawagner, div.icann, div.w3c, div.Sportaddict, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3, div.vigenere {
     width: 30%;
@@ -471,7 +473,62 @@ div.villawagner, div.icann, div.w3c, div.Sportaddict, div.siopedia, div.Kryptos,
     transition-property: transform;
     transition-duration: 500ms;
     padding-bottom: 45px;
-    box-shadow: black 0px 5px 20px 0px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25)  
+}
+
+div.vigenere:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
+}
+
+div.villawagner:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
+}
+
+div.icann:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
+}
+
+div.w3c:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
+}
+
+div.archedenoe:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
+  }
+
+div.siopedia:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
+}
+
+div.Sportaddict:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
+}
+
+div.Kryptos:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
+  }
+
+div.AP1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
+}
+
+div.AP2:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
+}
+
+div.AP3:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
 }
 
 div.archedenoe {
@@ -482,7 +539,6 @@ div.archedenoe {
     transition-property: transform;
     transition-duration: 500ms;
     padding-bottom: 45px;
-    box-shadow: black 0px 5px 20px 0px;
 }
 
 
@@ -494,6 +550,14 @@ div.projets1 img {
     transition-duration:none;
     /* object-fit: none; */
     width: -webkit-fill-available
+}
+
+.AP1 img {
+  object-fit: contain;
+}
+
+div.w3c img {
+  object-fit: contain;
 }
 
 div.Titreprojets {
@@ -509,6 +573,10 @@ div.w3c div.Titreprojets {
 
 div.Texteprojets {
     font-size: 20px;
+}
+
+div.Sportaddict div.Texteprojets {
+  height: 55px;
 }
 
 div.coursprojets {
