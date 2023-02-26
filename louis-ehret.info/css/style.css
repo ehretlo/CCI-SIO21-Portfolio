@@ -50,13 +50,42 @@ div.technicien {
 
     height: 870px ;
     width: 100%;
-    background: url('../pic/everest.jpg');
+    background: url('../pic/background.jpg');
     min-height: 100vh;
     background-size: cover;
     background-position: center;
     color: white;
     position: initial;
     display: flex;
+    filter: saturate(0.5);
+}
+
+.underline {
+  text-decoration: none;
+}
+
+.underline:hover {
+  text-decoration: none;
+}
+
+.underline {
+  text-decoration: none;
+  position: relative;
+}
+
+.underline:after {
+  border-radius: 1em;
+  border-top: .1em solid #904639;
+  content: "";
+  position: absolute;
+    right: 100%;
+    bottom: -0.2em;
+    left: 0;
+  transition: right .4s cubic-bezier(0,.5,0,1);
+}
+
+.underline:hover:after {
+  right: 0;
 }
 
 /* EXPLICATIONS HTML 
@@ -112,6 +141,7 @@ div.sectionquisuisje {
 
 div.image1 img {
   border-radius: 30px;
+  box-shadow: rgb(25, 111, 61) 5px 5px, rgba(25, 111, 61, 0.3) 10px 10px, rgba(25, 111, 61, 0.2) 15px 15px, rgba(25, 111, 61, 0.1) 20px 20px, rgba(25, 111, 61, 0.05) 25px 25px;
 }
 
 div.textandimage {
@@ -238,18 +268,18 @@ div.sectionmesformations h3 {
 
 /* mes formations texte */
 div.formatext1 {
-    color: #D2D7DD;
+    color: #A5A9AD;
     font-size: 30px;
 }
 
 div.formatext2 {
-    color:#D2D7DD;
+    color:#A5A9AD;
     font-size: 25px;
     width: 500px;
 }
 
 div.formatext4 {
-    color:#D2D7DD;
+    color:#A5A9AD;
     font-size: 25px;
     width: 420px;
     margin: 0 auto;
@@ -324,6 +354,7 @@ div.entreprises {
 
 div.sectionentreprises {  
     height: 790px;
+    
 }
 
 /*DIV SEW*/
@@ -844,7 +875,7 @@ a.styled {
     margin: 10% auto;
     padding: 5px 20px 13px 20px;
     border-radius: 10px;
-    background-color:#D2D7DD;
+    background-color:#A5A9AD;
   }
   .close {
     background: #606061;
