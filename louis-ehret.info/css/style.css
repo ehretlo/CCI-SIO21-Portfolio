@@ -58,6 +58,7 @@ div.technicien {
     position: initial;
     display: flex;
     filter: saturate(0.5);
+    border-bottom: solid #904639;
 }
 
 .underline {
@@ -134,14 +135,19 @@ h3 {
 }
 
 div.sectionquisuisje {
-    background: #A5A9AD;
-    font-family: 'Groteskia';
-    margin: 0 auto;
+  background: #A5A9AD;
+  background: linear-gradient(135deg, #A5A9AD 21px, #6b676b 22px, #6b676b 24px, transparent 24px, transparent 67px, #6b676b 67px, #d6dbe0 69px, transparent 69px),linear-gradient(225deg, #A5A9AD 21px, #6b676b 22px, #6b676b 24px, transparent 24px, transparent 67px, #6b676b 67px, #6b676b 69px, transparent 69px)0 64px;
+  background-color: #A5A9AD;
+  background-size: 64px 128px;
 }
 
 div.image1 img {
   border-radius: 30px;
   box-shadow: rgb(25, 111, 61) 5px 5px, rgba(25, 111, 61, 0.3) 10px 10px, rgba(25, 111, 61, 0.2) 15px 15px, rgba(25, 111, 61, 0.1) 20px 20px, rgba(25, 111, 61, 0.05) 25px 25px;
+}
+
+div.image1 img:hover{
+  transform: translateY(-15px);
 }
 
 div.textandimage {
@@ -467,6 +473,8 @@ div.sectionprojets h3 {
 
 div.sectionprojets {
     background-color: #A5A9AD;
+    background-image: linear-gradient(45deg, transparent 20%, #333 25%, transparent 25%), linear-gradient(-45deg, transparent 20%, #333 25%, transparent 25%), linear-gradient(-45deg, transparent 75%, #333 80%, transparent 0), radial-gradient(gray 2px, transparent 0);
+background-size: 30px 30px, 30px 30px;
 }
 
 div.premierprojet {
@@ -504,7 +512,7 @@ div.villawagner, div.icann, div.w3c, div.Sportaddict, div.siopedia, div.Kryptos,
     transition-property: transform;
     transition-duration: 500ms;
     padding-bottom: 45px;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25)  
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25); 
 }
 
 div.vigenere:hover {
@@ -1355,6 +1363,7 @@ ul li a:hover::after {
      .skills-container{
      grid-tempLate-columns: repeat(2, 1fr);
      padding: 2rem 50px;
+     display: inline;
      }
     }
     
@@ -1403,3 +1412,28 @@ div.container1 .css {
 .css {width: 80%; background-color: #2196F3;} /* Blue */
 .js {width: 65%; background-color: #f44336;} /* Red */
 .php {width: 60%; background-color: #808080;} /* Dark Grey */
+
+.mon-bouton {
+  font-family: 'GROTESKIA';
+  background-color: black; /* Couleur de fond */
+  border: none; /* Pas de bordure */
+  color: white; /* Couleur de texte */
+  padding: 12px 24px; /* Remplissage (haut/bas gauche/droite) */
+  text-decoration: none; /* Pas de soulignement */
+  display: inline-block; /* Affichage en ligne */
+  font-size: 17px; /* Taille de police */
+  cursor: pointer; /* Curseur de la souris de type pointeur */
+  border-radius: 5px; /* Arrondi des bords */
+  transition-duration: 0.4s; /* Durée de transition */
+  float: right;
+}
+
+.mon-bouton:hover {
+  background-color: #333; /* Couleur de fond lors du survol */
+  color: white; /* Couleur de texte lors du survol */
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
