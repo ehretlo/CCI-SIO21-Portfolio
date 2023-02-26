@@ -92,6 +92,11 @@ div.vertical {
 
 /* PAGE WEB TEXTE EN DESSOUS DE LA PRESENTATION */
 
+h1 {
+  color: white;
+  font-size: 25px;
+}
+
 h3 {
     font-size: 35px;
     padding-top: 30px;
@@ -599,7 +604,7 @@ div.integrationrs {
 footer {
     background:#ccc;
     bottom:0;
-    background-color: #D2D7DD;
+    background-color: #A5A9AD;
     font-size: 25px;
     font-family:'Groteskia';
     justify-content: space-evenly;
@@ -726,7 +731,7 @@ a.styled {
   
   /* toute la hauteur */
   ::-webkit-scrollbar-track {
-    background: #D2D7DD;
+    background: #A5A9AD;
   }
   
   /* maintient */
@@ -800,35 +805,33 @@ a.styled {
   /* ____________________________________*/
 /* The Modaldialog1 (background) -------------------------------------------------------------------------- */
 
-body {
-    margin: 0;
-    font-family: 'GROTESKIA';
-  }
-  
-  ul li a {
-    color: #000;
-    display: inline-block;
+div.Titreprojets a {
+  text-decoration: none;
+}
+
+div.Titreprojets a:hover {
+  text-decoration: none;
+}
+
+div.Titreprojets a {
+  text-decoration: none;
   position: relative;
-  color: #000;
-  }
+}
 
-  ul li a::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
+div.Titreprojets a:after {
+  border-radius: 1em;
+  border-top: .1em solid #904639;
+  content: "";
+  position: absolute;
+    right: 100%;
+    bottom: -0.2em;
     left: 0;
-    background-color: #904639;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-  }
+  transition: right .4s cubic-bezier(0,.5,0,1);
+}
 
-  ul li a:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
+div.Titreprojets a:hover:after {
+  right: 0;
+}
   
   /* header */
   
@@ -939,6 +942,7 @@ body {
     height: 67px;
   }
   
+  /*EFFET UNDERLINE **************************************************/
   body {
     margin: 0;
     font-family: 'GROTESKIA';
@@ -1001,7 +1005,72 @@ body {
     cursor: url('../cursors/handcursor1.cur'), auto;
   }
   
+/*EFFET UNDERLINE **************************************************/
+body {
+  margin: 0;
+  font-family: 'GROTESKIA';
+}
 
+ul li a {
+  color: #000;
+  display: inline-block;
+position: relative;
+color: #000;
+}
+
+ul li a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #904639;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+ul li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* header */
+
+.header {
+  background-color: #A5A9AD;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  top: 0px;
+  border-bottom: thick double #904639 ;
+}
+
+.header ul {
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #A5A9AD;
+}
+
+.header li a {
+  display: block;
+  padding: 20px 20px;
+  border-right: 1px solid #A5A9AD;
+  text-decoration: none;
+  font-size: 90px;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+  cursor: url('../cursors/handcursor1.cur'), auto;
+}
+
+
+/* EFFET UNDERLINE FIN *µµµµµµµµµµµµµµµµµµµµ/
+  
   /* menu */
   
   .header .menu {
@@ -1200,3 +1269,38 @@ body {
 div.skills-box p {
   font-size: 30px;
 }
+
+/* POUR LE 70% *******************************************************/
+
+.container1 {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+div.container1 .css {
+  width: 70%;
+  background-color: #2196F3;
+}
+
+/* POUR LE 70% *******************************************************/
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #04AA6D;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
