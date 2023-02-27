@@ -614,10 +614,6 @@ div.Texteprojets {
     font-size: 20px;
 }
 
-div.Sportaddict div.Texteprojets {
-  height: 55px;
-}
-
 div.coursprojets {
     font-size: 20px;
     background-color: #000;
@@ -686,18 +682,6 @@ div.Github, div.Outlook, div.Gmail, div.Courriel, div.linkedin {
    box-shadow: 10px 5px 5px #000;
    align-items: center;
    margin: auto;
-}
-
-div.linkedin {
-    text-align: -webkit-center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-/*GITHUB*/
-
-div.badge-base LI-profile-badge {
-    display: flex;
 }
 
 /*centrage des div respectives*/
@@ -1422,7 +1406,7 @@ div.container1 .css {
   text-decoration: none; /* Pas de soulignement */
   display: inline-block; /* Affichage en ligne */
   font-size: 17px; /* Taille de police */
-  cursor: pointer; /* Curseur de la souris de type pointeur */
+  cursor: url('../cursors/handcursor1.cur'), auto; /* Curseur de la souris de type pointeur */
   border-radius: 5px; /* Arrondi des bords */
   transition-duration: 0.4s; /* Durée de transition */
   float: right;
@@ -1436,4 +1420,6 @@ div.container1 .css {
 button a {
   color: white;
   text-decoration: none;
+  cursor: url('../cursors/handcursor1.cur'), auto;
 }
+
