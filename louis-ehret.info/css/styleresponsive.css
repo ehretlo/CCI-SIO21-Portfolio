@@ -182,10 +182,6 @@ h7, h8, h9 {
     font-size: 45px;
   }
 
-  div.sectiondiplomes {
-    padding-bottom: 250px;
-  }
-
 /*fin*/
   /*responsive textes entreprise*/
 
@@ -217,25 +213,17 @@ div.projets1 div.icann, div.w3c, div.Sportaddict, div.archedenoe, div.siopedia, 
   width: 80%;
 }
 
-div.sectionprojets {
-  height: 3930px;
-}
-
 div.Titreprojets {
   font-size: 45px;
   display: block;
 }
 
 div.projets1 w3c img {
-  
   width: 500px;
-
 }
 
 div.AP1 img {
-  
   width: 500px;
-
 }
 
 /*_________________________________________________*/
@@ -246,7 +234,7 @@ div.AP1 img {
 
   }
 
-  div.github, div.teams, div.gmail, div.courriel {
+  div.github, div.courriel {
     margin: 0 auto;
     display: inline-block;
   }
@@ -256,7 +244,7 @@ div.AP1 img {
     display: block;
   }
 
-  div.github img, div.Gmail img, div.courriel img, div.teams img{
+  div.github img, div.courriel img {
     margin-top: 11px;
   }
 
@@ -272,11 +260,6 @@ div.AP1 img {
     height: 1000px;
     padding-top: 100px;
   }
-
-  div.outlook {
-    margin: none;
-  }
-  
 /*FIN SECTION CONTACTS*/
 
 div.mentions {

@@ -339,13 +339,6 @@ div.temoignage:hover {
 /*___________________________________________________________________*/
 /* ______________________DEBUT SECTION ENTREPRISES______________________*/
 
-div.entreprisesprincipal {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
-    height: 700px;
-}
 
 div.sectionentreprises h3 {
     font-family: 'Groteskia';
@@ -359,59 +352,11 @@ div.entreprises {
 }
 
 div.sectionentreprises {  
-    height: 790px;
-    
-}
-
-/*DIV SEW*/
-div.Sew-usocome {
-    font-family: 'Groteskia';
-    width: 397px;
-}
-
-div.macimg {
-    text-align: center;
-}
-
-div.entreprisestext1 {
-    font-family: 'Groteskia';
-    font-size: 35px;
-    display: list-item;
-    list-style-type: style type circle;
-}
-
-div.entreprisestext2 {
-    font-family: 'Groteskia';
-    font-size: 20px;
-    margin-top: 5px;
-    width: 397px;
-}
-
-div.datestext {
-    font-family: 'Groteskia';
-    font-size: 20px;
-    color: #6b676b;
-}
-
-div.entreprises2 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: baseline;
-}
-
-
-div.MairieHaguenau {
-    width: 397px;
-}
-
-div.mac {
-    width: 397px;
-}
-
-div.PoleCulturel {
-    font-family: 'Groteskia';
-    font-size: 30px;
-    width: 397px;
+    background-color: #A5A9AD;
+    background: linear-gradient(135deg, #D2D7DD80 50%, transparent 0),linear-gradient(-135deg, #D2D7DD80 50%, transparent 0);
+    background-size: 3em 3em;
+    background-color: #A5A9AD;
+    opacity: 1
 }
 
 /* ______________________ FIN SECTION ENTREPRISE______________________*/
@@ -646,9 +591,12 @@ div.sectioncontacts {
 }
 
 p {
-    font-size: 55px;
     margin: auto;
     display: block;
+}
+
+div.textcontacts {
+  font-size: 50px;
 }
 
 div.textcontacts2 {
@@ -1423,3 +1371,66 @@ button a {
   cursor: url('../cursors/handcursor1.cur'), auto;
 }
 
+  /* Style de la section des entreprises */
+  #entreprises {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style de chaque entreprise */
+  .entreprise {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+  }
+  
+  /* Style de l'image de chaque entreprise */
+  .entreprise img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Style du texte de chaque entreprise */
+  .entreprise p {
+    text-align: center;
+    margin: 20px;
+    font-size: 25px;
+  }
+
+  .entreprise h1{
+    color: #000;
+    text-align: center;
+    font-size: 35px;
+  }
+
+div.entreprise.sew h1 {
+    color: #DE0000;
+  }
+
+  div.entreprise.dreal h1 {
+    color: #239B56;
+  }
+
+  div.entreprise.CHH h1 {
+    color: #30B0D3;
+  }
+
+  div.entreprise.sew, div.entreprise.dreal, div.entreprise.CHH, div.entreprise.Mairie {
+    transition-property: transform;
+    transition-duration: 500ms;
+  }
+
+  
+
+  div.entreprise.sew:hover, div.entreprise.dreal:hover, div.entreprise.CHH:hover, div.entreprise.Mairie:hover{
+    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 25%);
+    transform: translateY(-15px);
+    transition-duration: 500ms;
+    transition-property: transform;
+  }
