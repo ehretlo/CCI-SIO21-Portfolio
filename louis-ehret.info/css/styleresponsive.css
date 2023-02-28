@@ -1,6 +1,47 @@
 @media ALL and (max-width: 1024px) {
 
 
+
+  .entreprise {
+    width: 450px;
+  }
+
+  .skills-title h1 {
+    font-size: 73px;
+  }
+
+  div.projets1 {
+    font-family: 'Groteskia';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  div.entreprise.sew h1 {
+    font-size: 56px;
+  }
+
+  div.entreprise.dreal h1 {
+    font-size: 56px;
+  }
+
+  div.entreprise.CHH h1 {
+    font-size: 56px;
+  }
+
+  div.entreprise.Mairie h1 {
+    font-size: 56px;
+  }
+
+  .entreprise p {
+    font-size: 40px
+  }
+
+  div.skills-header h1 {
+    font-size: 70px;
+  }
+
   /*PREMIERE PAGE BANNER ET NAVBAR*/
   /*image respnsive de fond pour aller sur les écrans*/
   .banner  {
@@ -188,7 +229,7 @@ h7, h8, h9 {
 div.sectionentreprises {
   display: block;
   text-align: center;
-  height: 1200px;
+  height: 1446px;
 }
 
 div.entreprises {
@@ -205,26 +246,80 @@ div.SEW-Usocome,div.dreal,div.CHH {
 
 div.villawagner, div.w3c, div.Sportaddict, div.archedenoe, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3 {
   width:80%;
-  padding-bottom: 75px;
+  padding-bottom: 154px;
+  height: 494px;
+  margin-bottom: 10px;
   
 }
 div.projets1 div.icann, div.w3c, div.Sportaddict, div.archedenoe, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3, div.vigenere {
-  padding-bottom: 50px;
+  padding-bottom: 194px;
   width: 80%;
 }
 
 div.Titreprojets {
-  font-size: 45px;
+  font-size: 90px;
   display: block;
+  
+  padding-bottom: 90px;
 }
 
-div.projets1 w3c img {
-  width: 500px;
+div.Texteprojets {
+  font-size: 40px;
+  
+  padding-bottom: 23px;
+
 }
+
+div.coursprojets {
+  font-size: 34px;
+}
+
+.mon-bouton {
+  font-size: 30px;
+}
+
 
 div.AP1 img {
   width: 500px;
 }
+
+
+div.villawagner a img {
+  height:60%;
+}
+
+div.projets1 div.icann {
+  padding-bottom: 212px;
+  width: 791px;
+  height: 494px;
+}
+
+div.archedenoe div.Texteprojets {
+  font-size: 36px;
+}
+
+div.siopedia div.Texteprojets {
+  font-size: 36px;
+}
+
+div.Kryptos div.Texteprojets {
+  font-size: 36px;
+}
+
+div.vigenere div.Texteprojets {
+  font-size: 36px;
+}
+
+div.w3c div.Titreprojets {
+  font-size: 45px;
+}
+
+div.premierprojet {
+  font-size: 40px;
+  height: 118px
+}
+
+
 
 /*_________________________________________________*/
 /* ______________________SECTION CONTACTS______________________*/
