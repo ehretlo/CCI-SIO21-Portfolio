@@ -319,7 +319,37 @@ div.premierprojet {
   height: 118px
 }
 
+#contact label {
+  font-size: 79px;
+}
 
+#contact form {
+  max-width: 748px;
+}
+
+#contact input[type="text"],
+  #contact input[type="email"],
+  #contact textarea {
+    font-size: 46px;
+    height: 131px;
+  }
+
+div.textcontactsprincipal {
+  height: 269px;
+  Padding-top: 1px;
+}
+
+div.textcontacts {
+  font-size: 113px;
+}
+
+#contact {
+  height: 1499px;
+}
+
+footer {
+  font-size: 56px;
+}
 
 /*_________________________________________________*/
 /* ______________________SECTION CONTACTS______________________*/
