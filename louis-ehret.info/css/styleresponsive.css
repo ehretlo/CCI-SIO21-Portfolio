@@ -244,16 +244,20 @@ div.SEW-Usocome,div.dreal,div.CHH {
 /*FIN SECTION ENTREPRISES*/
 /* ______________________SECTION PROJETS______________________*/
 
-div.villawagner, div.w3c, div.Sportaddict, div.archedenoe, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3 {
+div.villawagner, div.w3c, div.Sportaddict, div.archedenoe, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3, div.AP4, div.berghof {
   width:80%;
   padding-bottom: 154px;
   height: 494px;
   margin-bottom: 10px;
   
 }
-div.projets1 div.icann, div.w3c, div.Sportaddict, div.archedenoe, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3, div.vigenere {
+div.projets1 div.icann, div.w3c, div.Sportaddict, div.archedenoe, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3, div.AP4, div.vigenere, div.berghof {
   padding-bottom: 194px;
   width: 80%;
+}
+
+div.berghof {
+  margin-top: 30px;
 }
 
 div.Titreprojets {
