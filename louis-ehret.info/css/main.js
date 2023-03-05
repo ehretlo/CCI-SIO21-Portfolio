@@ -1,8 +1,13 @@
-  function toggleNavbar() {
-    var x = document.getElementById("myNavbar");
-    if (x.className === "navbar-right") {
-        x.className += " responsive";
+function afficher_div_masque() {
+    var div = document.getElementById("toto");
+    var afficher = document.querySelector(".afficher");
+    if (div.classList.contains("toto-closed")) {
+      div.classList.remove("toto-closed");
+      div.classList.add("toto-open");
+      afficher.textContent = "Masquer";
     } else {
-        x.className = "navbar-right";
+      div.classList.remove("toto-open");
+      div.classList.add("toto-closed");
+      afficher.textContent = "Afficher plus";
     }
 }
