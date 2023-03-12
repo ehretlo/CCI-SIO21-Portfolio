@@ -83,6 +83,10 @@ ___________________________________*/
 
     display: block;
   }
+
+  a.styled {
+    width: 900px;
+  }
   
     img {
       display: block;
