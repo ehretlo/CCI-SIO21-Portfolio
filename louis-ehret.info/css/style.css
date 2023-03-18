@@ -31,6 +31,8 @@ body{
 
 .policegroteskia {
     font-family: 'Groteskia';
+    padding-left: 8px;
+    border-left: 1px solid #404040;
 }
 
 div.technicien {
@@ -474,7 +476,7 @@ div.projets1 {
 }
 
 
-div.villawagner, div.icann, div.w3c, div.Sportaddict, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3, div.AP4, div.vigenere, div.berghof, div.everest, div.attacks, div.hmail, div.voip, div.securitesurete, div.pca, div.messagerie {
+div.villawagner, div.icann, div.w3c, div.Sportaddict, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3, div.AP4, div.vigenere, div.berghof, div.everest, div.attacks, div.hmail, div.voip, div.securitesurete, div.veilleos, div.pca, div.camera, div.comparatif {
     width: 30%;
     height: 375px;
     margin: 10px;
@@ -483,6 +485,18 @@ div.villawagner, div.icann, div.w3c, div.Sportaddict, div.siopedia, div.Kryptos,
     transition-duration: 500ms;
     padding-bottom: 45px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25); 
+}
+
+div.AP4 {
+  background-color: #ED7D31;
+}
+
+div.AP4 img {
+  object-fit: contain;
+}
+
+div.AP3 {
+  background-color:#2196F3;
 }
 
 div.hmail img, div.pca img {
@@ -585,6 +599,16 @@ div.securitesurete:hover {
 }
 
 div.messagerie:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
+}
+
+div.camera:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
+}
+
+div.comparatif:hover {
   transform: translateY(-5px);
   box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
 }
@@ -1246,7 +1270,7 @@ ul li a:hover::after {
   }
   
   .header .menu-btn:checked ~ .menu {
-    max-height: 850px;
+    max-height: 910px;
   }
   
   .header .menu-btn:checked ~ .menu-icon .navicon {
