@@ -476,7 +476,7 @@ div.projets1 {
 }
 
 
-div.villawagner, div.icann, div.w3c, div.Sportaddict, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3, div.AP4, div.vigenere, div.berghof, div.everest, div.attacks, div.hmail, div.voip, div.securitesurete, div.veilleos, div.pca, div.camera, div.migration {
+div.villawagner, div.icann, div.w3c, div.Sportaddict, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3, div.AP4, div.vigenere, div.berghof, div.everest, div.attacks, div.hmail, div.voip, div.securitesurete, div.pca, div.camera, div.migration, div.veilleos, div.incidents {
     width: 30%;
     height: 375px;
     margin: 10px;
@@ -609,6 +609,16 @@ div.camera:hover {
 }
 
 div.migration:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
+}
+
+div.veilleos:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
+}
+
+div.incidents:hover {
   transform: translateY(-5px);
   box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
 }
