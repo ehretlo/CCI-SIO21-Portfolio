@@ -247,17 +247,27 @@ div.SEW-Usocome,div.dreal,div.CHH {
 /*FIN SECTION ENTREPRISES*/
 /* ______________________SECTION PROJETS______________________*/
 
-div.villawagner, div.w3c, div.Sportaddict, div.archedenoe, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3, div.AP4, div.berghof, div.everest, div.attacks, div.hmail, div.voip, div.securitesurete, div.veilleos, div.pca, div.camera, div.comparatif {
+div.villawagner, div.w3c, div.Sportaddict, div.archedenoe, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3, div.AP4, div.berghof, div.everest, div.attacks, div.pca, div.camera, div.migration, div.incidents {
   width:80%;
   padding-bottom: 154px;
   height: 494px;
   margin-bottom: 10px;
   
 }
-div.projets1 div.icann, div.w3c, div.Sportaddict, div.archedenoe, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3, div.AP4, div.vigenere, div.berghof, div.everest, div.attacks, div.hmail, div.voip, div.securitesurete, div.veilleos, div.pca, div.camera, div.comparatif {
+div.projets1 div.icann, div.w3c, div.Sportaddict, div.archedenoe, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3, div.AP4, div.vigenere, div.berghof, div.everest, div.attacks, div.camera, div.incidents {
   padding-bottom: 194px;
   width: 80%;
   margin-bottom: 40px;
+}
+
+div.projets1 div.incidents {
+  padding-bottom:230px;
+  
+  margin-bottom: 70px;
+}
+
+div.projets1 div.incidents img {
+  object-fit: scale-down;
 }
 
 div.berghof {
