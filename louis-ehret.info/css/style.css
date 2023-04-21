@@ -352,15 +352,15 @@ h3 {
 div.temoignage {
     font-size: 20px;
     width: 400px;
+    
+    padding-top: 15px;
+
 }
 
 div.temoignage a {
     cursor: url('../cursors/handcursor1.cur'), auto;
 }
 
-div.temoignage:hover {
-    color: #fff;
-}
 
 /* ______________________ FIN FORMATIONS_____________________*/
 /*___________________________________________________________________*/
@@ -398,6 +398,7 @@ div.sectiondiplomes {
 
 div.sectiondiplomes {
     text-align: center;
+    padding-bottom: 30px;
 }
 
 div.imgdiplome {
@@ -460,9 +461,19 @@ div.deuxiemeprojet {
     margin-top: 30px;
     font-family: 'Groteskia';
     text-align: center;
-    font-size: 20px;
+    font-size: 45px;
     height: 55px;
     font-size: 30px;
+    text-decoration: underline #333;
+}
+
+div.txtdeuxiemeprojet {
+  font-size: 25px;
+  height: 70px;
+}
+
+.color {
+  color: red;
 }
 
 div.projets1 {
@@ -476,7 +487,7 @@ div.projets1 {
 }
 
 
-div.villawagner, div.icann, div.w3c, div.Sportaddict, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3, div.AP4, div.vigenere, div.berghof, div.everest, div.attacks, div.hmail, div.voip, div.securitesurete, div.pca, div.camera, div.migration, div.veilleos, div.incidents {
+div.villawagner, div.icann, div.w3c, div.Sportaddict, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3, div.AP4, div.vigenere, div.berghof, div.everest, div.attacks, div.hmail, div.voip, div.securitesurete, div.pca, div.camera, div.migration, div.veilleos, div.incidents, div.chess {
     width: 30%;
     height: 375px;
     margin: 10px;
@@ -619,6 +630,11 @@ div.incidents:hover {
   box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
 }
 
+div.chess:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
+}
+
 div.archedenoe {
     width: 30%;
     height: 375px;
@@ -637,8 +653,12 @@ div.projets1 img {
     transform: none;
     transition-duration:none;
     /* object-fit: none; */
-    width: -webkit-fill-available
-}
+    width: -webkit-fill-available;
+  }
+
+  div.groupeprojets {
+    text-align: center;
+  }
 
 .AP1 img {
   object-fit: contain;
@@ -672,7 +692,7 @@ div.Sportaddict img {
     object-fit: none;
 }
 
-div.AP1, div.AP3 img {
+div.AP1 img {
     object-fit: contain;
 }
 
@@ -695,6 +715,7 @@ div.sectioncontacts {
 p {
     margin: auto;
     display: block;
+    font-size: xx-large;
 }
 
 div.textcontacts {
@@ -1303,7 +1324,6 @@ ul li a:hover::after {
       float: left;
     }
     .header li a {
-      padding: 20px 30px;
       font-size: 22px;
     }
     .header .menu {
@@ -1644,4 +1664,8 @@ div.entreprise.sew h1 {
 section#contact button {
   font-family: 'GROTESKIA';
 }
-  
+
+main a:hover {
+  cursor: url('../cursors/handcursor1.cur'), auto;
+}
+

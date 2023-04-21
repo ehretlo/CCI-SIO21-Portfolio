@@ -80,7 +80,7 @@ ___________________________________*/
     }
 
   .presentationtext {
-
+    font-size: 120px;
     display: block;
   }
 
@@ -167,7 +167,7 @@ h7, h8, h9 {
 /* section pour agrandir le gris foncé de section mes formations*/
 
   div.sectionmesformations {
-    height: 1500px;
+    height: 1800px;
   }
 
   div.sectionmesformations h3 {
@@ -232,7 +232,7 @@ h7, h8, h9 {
 div.sectionentreprises {
   display: block;
   text-align: center;
-  height: 1446px;
+  height: 1820px;
 }
 
 div.entreprises {
@@ -247,17 +247,24 @@ div.SEW-Usocome,div.dreal,div.CHH {
 /*FIN SECTION ENTREPRISES*/
 /* ______________________SECTION PROJETS______________________*/
 
-div.villawagner, div.w3c, div.Sportaddict, div.archedenoe, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3, div.AP4, div.berghof, div.everest, div.attacks, div.pca, div.camera, div.migration, div.incidents {
+div.villawagner, div.w3c, div.Sportaddict, div.archedenoe, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3, div.AP4, div.berghof, div.everest, div.attacks, div.pca, div.camera, div.migration, div.incidents, div.chess {
   width:80%;
   padding-bottom: 154px;
   height: 494px;
   margin-bottom: 10px;
   
 }
-div.projets1 div.icann, div.w3c, div.Sportaddict, div.archedenoe, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3, div.AP4, div.vigenere, div.berghof, div.everest, div.attacks, div.camera, div.incidents {
+
+div.projets1 {
+  
+  padding-top: 62px
+}
+
+div.projets1 div.icann, div.w3c, div.Sportaddict, div.archedenoe, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3, div.AP4, div.vigenere, div.berghof, div.everest, div.attacks, div.camera, div.incidents, div.chess {
   padding-bottom: 194px;
   width: 80%;
   margin-bottom: 40px;
+  
 }
 
 div.projets1 div.incidents {
@@ -272,6 +279,16 @@ div.projets1 div.incidents img {
 
 div.berghof {
   margin-top: 30px;
+}
+
+div.deuxiemeprojet {
+  font-size: 52px;
+}
+
+div.txtdeuxiemeprojet {
+  font-size: 39px;
+  margin-top: 100px;
+  height: 139px;
 }
 
 div.Titreprojets {
@@ -379,6 +396,10 @@ footer {
     text-align: center;
     display: list-item;
 
+  }
+
+  div.introcompétences {
+    font-size: 52px;
   }
 
   div.github, div.courriel {
