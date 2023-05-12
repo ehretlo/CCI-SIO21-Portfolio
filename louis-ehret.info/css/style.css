@@ -21,6 +21,11 @@ body{
 }
 
 @font-face {
+  font-family: 'NOTO';
+  src: url('../font/Poppins-Regular.ttf') 
+}
+
+@font-face {
     font-family: 'signaturevp';
     src: url('../font/SignatureVP-PersonalUse.ttf');
 }
@@ -30,7 +35,7 @@ body{
 }
 
 .policegroteskia {
-    font-family: 'Groteskia';
+    font-family: 'NOTO';
     padding-left: 8px;
     border-left: 1px solid #404040;
 }
@@ -59,7 +64,7 @@ div.technicien {
 
     height: 870px ;
     width: 100%;
-    background: url('../pic/paro.jpg');
+    background: url('../pic/hexagon1.png');
     min-height: 100vh;
     background-size: cover;
     background-position: center;
@@ -73,14 +78,14 @@ p.presentationtext {
   border-radius: 10px 10px 10px 10px;
   letter-spacing: .05em;
   text-shadow: 
-    4px 4px 0px #A5A9AD, 
-    7px 7px 0px rgba(0, 0, 0, 0.2);
+    4px 4px 0px #904639, 
+    7px 7px 0px #904639;
     z-index: 1;
   }
   
 
 .bannerthing {
-  background-color: #A5A9AD;
+  background-color: #D2D7DD;
   padding-bottom: 10px;
   padding-left: 5px;
   border-radius: 10px;
@@ -122,8 +127,8 @@ l'élément &nbsp; sert à ajouter un espace supplémentaire dans un texte. &ens
 @media (min-width: 768px){
 .presentationtext {
     font-size: 70px;
-    color: white;
-    font-family: 'Groteskia';
+    color: #333;
+    font-family: 'NOTO';
     text-align: center;
     width: 1500px;
 }
@@ -151,7 +156,7 @@ div.vertical {
 
 h1 {
   color: white;
-  font-size: 25px;
+  font-size: 16px;
 }
 
 h3 {
@@ -161,12 +166,14 @@ h3 {
     color: black;
 }
 
+/*
 div.sectionquisuisje {
   background: #A5A9AD;
   background: linear-gradient(135deg, #A5A9AD 21px, #6b676b 22px, #6b676b 24px, transparent 24px, transparent 67px, #6b676b 67px, #d6dbe0 69px, transparent 69px),linear-gradient(225deg, #A5A9AD 21px, #6b676b 22px, #6b676b 24px, transparent 24px, transparent 67px, #6b676b 67px, #6b676b 69px, transparent 69px)0 64px;
   background-color: #A5A9AD;
   background-size: 64px 128px;
 }
+*/
 
 div.image1 img {
   border-radius: 30px;
@@ -178,7 +185,7 @@ div.image1 img:hover{
 }
 
 div.textandimage {
-    font-size: 26px;
+    font-size: 18px;
     display: flex;
     height: 350px;
       margin: auto;
@@ -281,18 +288,25 @@ h5 {
     margin-top: 2px;
     border-radius: 10px;
     display: block;
-    font-family: 'Groteskia';
+    font-family: 'NOTO';
     font-size: 35px;
 }
 
 div.sectionmesformations {
     background: #6b676b;
-    font-family: 'Groteskia';
-    height: 555px;
+    font-family: 'NOTO';
+    height: 645px;
 }
 
 div.introcompétences {
-  font-size: 25px;
+  font-size: 20px;
+  width: 1600px;
+  text-align: center;
+}
+
+div.introcompétences1 {
+  text-align: center;
+  font-size: 20px;
 }
 
 div.sectionmesformations h3 {
@@ -302,18 +316,18 @@ div.sectionmesformations h3 {
 /* mes formations texte */
 div.formatext1 {
     color: #A5A9AD;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 div.formatext2 {
     color:#A5A9AD;
-    font-size: 25px;
+    font-size: 17px;
     width: 500px;
 }
 
 div.formatext4 {
     color:#A5A9AD;
-    font-size: 25px;
+    font-size: 17px;
     width: 420px;
     margin: 0 auto;
 }
@@ -326,11 +340,11 @@ div.formatext3 {
 
 div.ccicampus {
     margin-top: 15px;
-    font-size: 40px;
+    font-size: 33px;
 }
 
 div.goulden {
-    font-size: 40px;
+    font-size: 33px;
     margin-top: 15px;
 }
 
@@ -350,7 +364,7 @@ h3 {
 }
 
 div.temoignage {
-    font-size: 20px;
+    font-size: 17px;
     width: 400px;
     
     padding-top: 15px;
@@ -368,7 +382,7 @@ div.temoignage a {
 
 
 div.sectionentreprises h3 {
-    font-family: 'Groteskia';
+    font-family: 'NOTO';
     color:#000 ;
 }
 
@@ -378,6 +392,7 @@ div.entreprises {
     align-items: baseline;
 }
 
+/*
 div.sectionentreprises {  
     background-color: #A5A9AD;
     background: linear-gradient(135deg, #D2D7DD80 50%, transparent 0),linear-gradient(-135deg, #D2D7DD80 50%, transparent 0);
@@ -392,7 +407,7 @@ div.sectionentreprises {
 
 div.sectiondiplomes {
     background: #904639;
-    font-family: 'Groteskia';
+    font-family: 'NOTO';
     display: block;
 }
 
@@ -439,19 +454,21 @@ div.experience {
 /* ______________________ DEBUT SECTION PROJETS______________________*/
 
 div.sectionprojets h3 {
-     font-family: 'Groteskia';
+     font-family: 'NOTO';
     
      
 }
 
+/*
 div.sectionprojets {
     background-color: #A5A9AD;
     background-image: linear-gradient(45deg, transparent 20%, #333 25%, transparent 25%), linear-gradient(-45deg, transparent 20%, #333 25%, transparent 25%), linear-gradient(-45deg, transparent 75%, #333 80%, transparent 0), radial-gradient(gray 2px, transparent 0);
 background-size: 30px 30px, 30px 30px;
 }
+*/
 
 div.premierprojet {
-    font-family: 'Groteskia';
+    font-family: 'NOTO';
     text-align: center;
     font-size: 25px;
     height: 55px;
@@ -459,7 +476,7 @@ div.premierprojet {
 
 div.deuxiemeprojet {
     margin-top: 30px;
-    font-family: 'Groteskia';
+    font-family: 'NOTO';
     text-align: center;
     font-size: 45px;
     height: 55px;
@@ -468,7 +485,7 @@ div.deuxiemeprojet {
 }
 
 div.txtdeuxiemeprojet {
-  font-size: 25px;
+  font-size: 19px;
   height: 70px;
 }
 
@@ -477,7 +494,7 @@ div.txtdeuxiemeprojet {
 }
 
 div.projets1 {
-    font-family: 'Groteskia';
+    font-family: 'NOTO';
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -494,8 +511,13 @@ div.villawagner, div.icann, div.w3c, div.Sportaddict, div.siopedia, div.Kryptos,
     background-color: white;
     transition-property: transform;
     transition-duration: 500ms;
-    padding-bottom: 45px;
+    padding-bottom: 110px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25); 
+    border-radius: 10px;
+}
+
+div.w3c div.Titreprojets a {
+  font-size: 22px;
 }
 
 div.AP4 {
@@ -642,7 +664,7 @@ div.archedenoe {
     background-color: white;
     transition-property: transform;
     transition-duration: 500ms;
-    padding-bottom: 45px;
+    padding-bottom: 110px;
 }
 
 
@@ -654,6 +676,7 @@ div.projets1 img {
     transition-duration:none;
     /* object-fit: none; */
     width: -webkit-fill-available;
+    border-radius: 10px 10px 0 0;
   }
 
   div.groupeprojets {
@@ -669,8 +692,8 @@ div.w3c img {
 }
 
 div.Titreprojets {
-    font-family: 'Groteskia';
-    font-size:35px;
+    font-family: 'NOTO';
+    font-size:27px;
     height: 40px;
     padding-bottom: 10px;
 }
@@ -682,7 +705,7 @@ div.Texteprojets {
 }
 
 div.coursprojets {
-    font-size: 20px;
+    font-size: 17px;
     background-color: #000;
     color: #fff;
     padding-bottom: 5px
@@ -693,7 +716,7 @@ div.Sportaddict img {
 }
 
 div.AP1 img {
-    object-fit: contain;
+    object-fit: cover;
 }
 
 /* ______________________ FIN SECTION PROJETS______________________*/
@@ -703,11 +726,11 @@ div.AP1 img {
 /*background position va centrer l'image verticalement et horizontalement à tout moment*/
 /*no repeat signifie que ce n'est pas une mosaique*/
 div.sectioncontacts {
-    font-family: 'Groteskia';
-    background-image: url('../pic/fond_contacts2.jpg');
+    font-family: 'NOTO';
+    background-image: url('../pic/hexagon1.png');
     background-position: center center;
     background-repeat: no-repeat;
-    height: 1050px;
+    height: 1105px;
     min-height: 90vh;
     background-size:cover;
 }
@@ -715,7 +738,6 @@ div.sectioncontacts {
 p {
     margin: auto;
     display: block;
-    font-size: xx-large;
 }
 
 div.textcontacts {
@@ -737,38 +759,12 @@ div.textcontactsprincipal {
 
 /*__________________________________________partie 5 intégrations__________________________________________*/
 
-/*redimensionnement des images à 80px*/
-div.Github img, div.Gmail img, div.Courriel img, div.Outlook img, div.linkedin img {
-    width: 80px;
-}
-
-/*contour et dimensions de chaque div de RS*/
-div.Github, div.Outlook, div.Gmail, div.Courriel, div.linkedin {
-    width: 100px;
-    height: 100px;
-   display: flex;
-   justify-content: space-around;
-   background-color: #D2D7DD;
-   border-radius: 10px;
-   box-shadow: 10px 5px 5px #000;
-   align-items: center;
-   margin: auto;
-}
-
-/*centrage des div respectives*/
-div.integrationrs {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-/*droits*/
-
 footer {
     background:#ccc;
     bottom:0;
-    background-color: #A5A9AD;
+    background-color: white;
     font-size: 25px;
-    font-family:'Groteskia';
+    font-family:'NOTO';
     justify-content: space-evenly;
     text-align: center;
     cursor: url('../cursors/handcursor1.cur'), auto;
@@ -777,14 +773,14 @@ footer {
 div.sources, div.mentions {
     display: block;
     text-align: center;
-    font-family: 'GROTESKIA';
+    font-family: 'NOTO';
     cursor: url('../cursors/handcursor1.cur');
     font-size: 35px;
 }
 
 div.Fonds a {
     cursor: url('../cursors/handcursor1.cur'), auto;
-    font-family: 'GROTESKIA';
+    font-family: 'NOTO';
     display: block;
     text-align: center;
     font-size: 30px;
@@ -800,7 +796,7 @@ div.wallpaperflare {
 div.titresmentions {
     display: block;
     text-align: center;
-    font-family: 'GROTESKIA';
+    font-family: 'NOTO';
     cursor: url('../cursors/handcursor1.cur');
     font-size: 25px;
     text-decoration: underline;
@@ -809,7 +805,7 @@ div.titresmentions {
 div.titresmentions1 {
     display: block;
     text-align: center;
-    font-family: 'GROTESKIA';
+    font-family: 'NOTO';
     cursor: url('../cursors/handcursor1.cur');
     font-size: 25px;
     text-decoration: underline;
@@ -819,7 +815,7 @@ div.titresmentions1 {
 div.textesmentions {
     display: block;
     text-align: center;
-    font-family: 'GROTESKIA';
+    font-family: 'NOTO';
     cursor: url('../cursors/handcursor1.cur');
     font-size: 20px;
 }
@@ -860,7 +856,7 @@ h3:before {
 .styled {
     border: 0;
     line-height: 2.5;
-    font-size: 25px;
+    font-size: 18px;
     text-align: center;
     color: black;
     text-shadow: 1px 1px 1px #000;
@@ -902,7 +898,7 @@ a.styled:hover{
   
   /* toute la hauteur */
   ::-webkit-scrollbar-track {
-    background: #A5A9AD;
+    background: white;
   }
   
   /* maintient */
@@ -987,6 +983,7 @@ div.Titreprojets a:hover {
 div.Titreprojets a {
   text-decoration: none;
   position: relative;
+  font-weight: bold;
 }
 
 div.Titreprojets a:after {
@@ -1008,12 +1005,11 @@ div.Titreprojets a:hover:after {
   
   .header {
     background-color: #ABB2B9;
-    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    box-shadow: 1px 9px 4px 0 rgba(0,0,0,.1);
     position: fixed;
     width: 100%;
     z-index: 3;
     top: 0px;
-    border-bottom: thick double #904639 ;
   }
   
   .header ul {
@@ -1116,7 +1112,7 @@ div.Titreprojets a:hover:after {
   /*EFFET UNDERLINE **************************************************/
   body {
     margin: 0;
-    font-family: 'GROTESKIA';
+    font-family: 'NOTO';
   }
   
   ul li a {
@@ -1153,7 +1149,6 @@ div.Titreprojets a:hover:after {
     width: 100%;
     z-index: 3;
     top: 0px;
-    border-bottom: thick double #904639 ;
   }
   
   .header ul {
@@ -1179,7 +1174,7 @@ div.Titreprojets a:hover:after {
 /*EFFET UNDERLINE **************************************************/
 body {
   margin: 0;
-  font-family: 'GROTESKIA';
+  font-family: 'NOTO';
 }
 
 ul li a {
@@ -1210,26 +1205,25 @@ ul li a:hover::after {
 /* header */
 
 .header {
-  background-color: #A5A9AD;
-  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  background-color: white;
+  box-shadow: 1px 9px 4px 0 rgba(0,0,0,.1);
   position: fixed;
   width: 100%;
   z-index: 3;
   top: 0px;
-  border-bottom: thick double #904639 ;
 }
 
 .header ul {
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #A5A9AD;
+  background-color: white;
 }
 
 .header li a {
   display: block;
   padding: 20px 20px;
-  border-right: 1px solid #A5A9AD;
+  border-right: 1px solid white;
   text-decoration: none;
   font-size: 90px;
 }
@@ -1297,7 +1291,7 @@ ul li a:hover::after {
   }
   
   .header .menu-btn:checked ~ .menu {
-    max-height: 910px;
+    max-height: 1210px;
   }
   
   .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -1324,7 +1318,7 @@ ul li a:hover::after {
       float: left;
     }
     .header li a {
-      font-size: 22px;
+      font-size:17px;
     }
     .header .menu {
       clear: none;
@@ -1479,7 +1473,7 @@ div.container1 .css {
 .php {width: 60%; background-color: #808080;} /* Dark Grey */
 
 .mon-bouton {
-  font-family: 'GROTESKIA';
+  font-family: 'NOTO';
   background-color: black; /* Couleur de fond */
   border: none; /* Pas de bordure */
   color: white; /* Couleur de texte */
@@ -1509,7 +1503,6 @@ button a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
   }
   
   /* Style de chaque entreprise */
@@ -1570,7 +1563,7 @@ div.entreprise.sew h1 {
   .afficher-wrapper {
     text-align: center;
     margin-top: 20px;
-    font-family: 'GROTESKIA';
+    font-family: 'NOTO';
     font-size: 25px;
     color: #000;
     text-decoration: none;
@@ -1634,7 +1627,7 @@ div.entreprise.sew h1 {
     border-radius: 4px;
     background-color: #fff;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    font-family: 'GROTESKIA';
+    font-family: 'NOTO';
     height: 50px;
     font-size: large;
   }
@@ -1651,18 +1644,18 @@ div.entreprise.sew h1 {
     font-weight: bold;
     border: none;
     border-radius: 4px;
-    background-color: #0077b5;
+    background-color: #555;
     color: #fff;
     cursor: pointer;
     transition: all 0.3s ease;
   }
   
   #contact button[type="submit"]:hover {
-    background-color: #005f8b;
+    background-color: #333;
   }
 
 section#contact button {
-  font-family: 'GROTESKIA';
+  font-family: 'NOTO';
 }
 
 main a:hover {
