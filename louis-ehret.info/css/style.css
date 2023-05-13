@@ -152,6 +152,35 @@ div.vertical {
     width: 5px;
 }
 
+div.carre {
+  background-color: #eee; 
+  width: 30%; 
+  font-size: 20px;
+}
+
+div.web {
+  background-color: #eee; 
+  width: 30%; 
+  margin-right: 10px; 
+  font-size: 20px;
+}
+
+div.web1 {
+  background-color: #333;
+  color: #fff;
+  width: 10%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+div.web2 {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin-top: 30px;
+}
+
+
 /* PAGE WEB TEXTE EN DESSOUS DE LA PRESENTATION */
 
 h1 {
@@ -487,6 +516,7 @@ div.deuxiemeprojet {
 div.txtdeuxiemeprojet {
   font-size: 19px;
   height: 70px;
+  text-align: center;
 }
 
 .color {
@@ -679,7 +709,7 @@ div.projets1 img {
     border-radius: 10px 10px 0 0;
   }
 
-  div.groupeprojets {
+  div.groupeprojets1 {
     text-align: center;
   }
 
@@ -688,6 +718,18 @@ div.projets1 img {
 }
 
 div.w3c img {
+  object-fit: contain;
+}
+
+div.incidents img {
+  object-fit: contain;
+}
+
+div.migration img {
+  object-fit: contain;
+}
+
+div.incidents img {
   object-fit: contain;
 }
 
@@ -733,6 +775,7 @@ div.sectioncontacts {
     height: 1105px;
     min-height: 90vh;
     background-size:cover;
+    border-top: 2px solid #904639;
 }
 
 p {
@@ -783,7 +826,7 @@ div.Fonds a {
     font-family: 'NOTO';
     display: block;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 div.wallpaperflare {
@@ -817,7 +860,7 @@ div.textesmentions {
     text-align: center;
     font-family: 'NOTO';
     cursor: url('../cursors/handcursor1.cur');
-    font-size: 20px;
+    font-size: 15px;
 }
 
 div.droits a:hover {
@@ -940,10 +983,10 @@ a.styled:hover{
   .modalDialog > div {
     width: 400px;
     position: relative;
-    margin: 10% auto;
+    margin: 3% auto;
     padding: 5px 20px 13px 20px;
     border-radius: 10px;
-    background-color:#A5A9AD;
+    background-color:white;
   }
   .close {
     background: #606061;
@@ -1000,6 +1043,36 @@ div.Titreprojets a:after {
 div.Titreprojets a:hover:after {
   right: 0;
 }
+
+/**/
+div.Titreprojets1 a {
+  text-decoration: none;
+}
+
+div.Titreprojets1 a:hover {
+  text-decoration: none;
+}
+
+div.Titreprojets1 a {
+  text-decoration: none;
+  position: relative;
+  font-weight: bold;
+}
+
+div.Titreprojets1 a:after {
+  border-radius: 1em;
+  border-top: .1em solid #904639;
+  content: "";
+  position: absolute;
+    right: 100%;
+    bottom: -0.2em;
+    left: 0;
+  transition: right .4s cubic-bezier(0,.5,0,1);
+}
+
+div.Titreprojets1 a:hover:after {
+  right: 0;
+}
   
   /* header */
   
@@ -1047,23 +1120,23 @@ div.Titreprojets a:hover:after {
     cursor: pointer;
     display: inline-block;
     float: right;
-    padding: 28px 20px;
+    padding: 55px 20px;
     position: relative;
     user-select: none;
   }
   
   .header .menu-icon .navicon {
-    background: #333;
+    background: #904639;
     display: block;
-    height: 2px;
+    height: 55px;
     position: relative;
     transition: background .2s ease-out;
-    width: 18px;
+    width: 63px;
   }
   
   .header .menu-icon .navicon:before,
   .header .menu-icon .navicon:after {
-    background: #333;
+    background: #904639;
     content: '';
     display: block;
     height: 100%;
@@ -1251,23 +1324,23 @@ ul li a:hover::after {
     cursor: pointer;
     display: inline-block;
     float: right;
-    padding: 28px 20px;
+    padding: 55px 20px;
     position: relative;
     user-select: none;
   }
   
   .header .menu-icon .navicon {
-    background: #333;
+    background: #904639;
     display: block;
-    height: 2px;
+    height: 55px;
     position: relative;
     transition: background .2s ease-out;
-    width: 18px;
+    width: 63px;
   }
   
   .header .menu-icon .navicon:before,
   .header .menu-icon .navicon:after {
-    background: #333;
+    background: #904639;
     content: '';
     display: block;
     height: 100%;
@@ -1453,25 +1526,6 @@ div.container1 .css {
 
 /* Make sure that padding behaves as expected */
 * {box-sizing:border-box}
-
-/* Container for skill bars */
-.container {
-  width: 100%; /* Full width */
-  background-color: #ddd; /* Grey background */
-}
-
-.skills {
-  text-align: right; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
-  color: white; /* White text color */
-}
-
-.html {width: 90%; background-color: #04AA6D;} /* Green */
-.css {width: 80%; background-color: #2196F3;} /* Blue */
-.js {width: 65%; background-color: #f44336;} /* Red */
-.php {width: 60%; background-color: #808080;} /* Dark Grey */
-
 .mon-bouton {
   font-family: 'NOTO';
   background-color: black; /* Couleur de fond */

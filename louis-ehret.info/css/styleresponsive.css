@@ -11,11 +11,14 @@
   }
 
   div.projets1 {
-    font-family: 'Groteskia';
+    font-family: 'NOTO';
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+    
+    padding-top: 70px;
+
   }
 
   div.entreprise.sew h1 {
@@ -171,7 +174,7 @@ h7, h8, h9 {
 
   div.sectionmesformations h3 {
     color: #fff;
-    font-size: 55px;
+    font-size: 49px;
 }
 
   div.goulden, div.ccicampus {
@@ -248,24 +251,33 @@ div.SEW-Usocome,div.dreal,div.CHH {
 /* ______________________SECTION PROJETS______________________*/
 
 div.villawagner, div.w3c, div.Sportaddict, div.archedenoe, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3, div.AP4, div.berghof, div.everest, div.attacks, div.pca, div.camera, div.migration, div.incidents, div.chess {
-  width:80%;
+  width:90%;
   padding-bottom: 154px;
-  height: 494px;
+  height: 740px;
   margin-bottom: 10px;
   
 }
 
-div.projets1 {
-  
-  
-  padding-top: 250px;
-
+div.vigenere {
+  height: 740px;
 }
 
+div.Titreprojets a {
+  font-size: 50px;
+}
+
+div.chess div.Titreprojets a {
+  font-size: 50px;
+}
+
+div.AP1 div.Titreprojets a {
+  font-size: 50px;
+}
+
+
 div.projets1 div.icann, div.w3c, div.Sportaddict, div.archedenoe, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3, div.AP4, div.vigenere, div.berghof, div.everest, div.attacks, div.camera, div.incidents, div.chess {
-  padding-bottom: 194px;
-  width: 80%;
-  margin-bottom: 40px;
+  padding-bottom: 280px;
+  width: 90%;
   
 }
 
@@ -292,28 +304,19 @@ div.txtdeuxiemeprojet {
   font-size: 39px;
   margin-top: 100px;
   height: 285px;
-}
-
-div.groupeprojets {
-  height: 773px;
-}
-
-div.Titreprojets {
-  font-size: 61px;
-  display: block;
-  
-  padding-bottom: 90px;
+  text-align: center;
 }
 
 div.Texteprojets {
   font-size: 40px;
   
   padding-bottom: 23px;
+  padding-top: 53px;
 
 }
 
 div.coursprojets {
-  font-size: 34px;
+  font-size: 28px;
 }
 
 .mon-bouton {
@@ -322,7 +325,23 @@ div.coursprojets {
 
 
 div.AP1 img {
-  width: 500px;
+  object-fit: cover;
+}
+
+div.technicien {
+  font-size: 80px;
+}
+
+div.AP4 {
+  padding-bottom: 218px;
+}
+
+.afficher-wrapper {
+  margin-top: 115px;
+}
+
+div.migration {
+  padding-bottom: 290px;
 }
 
 
@@ -331,9 +350,10 @@ div.villawagner a img {
 }
 
 div.projets1 div.icann {
-  padding-bottom: 212px;
+  padding-bottom: 345px;
   width: 791px;
-  height: 494px;
+  height: 741px;
+  width: 90%;
 }
 
 div.archedenoe div.Texteprojets {
