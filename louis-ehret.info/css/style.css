@@ -12,6 +12,9 @@ body{
     
     }
 
+div.image1 img {
+      pointer-events: none;
+    }
 
 /*<h1 id="header" id="h1" style="width: 499px; height: 70px;"> manipuler la hauteur de la nav bar 1 */
 
@@ -558,10 +561,6 @@ div.AP3 {
   background-color:#DC7633;
 }
 
-div.hmail img, div.pca img {
-  object-fit: contain;
-}
-
 div.vigenere:hover {
   transform: translateY(-5px);
   box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
@@ -707,6 +706,7 @@ div.projets1 img {
     /* object-fit: none; */
     width: -webkit-fill-available;
     border-radius: 10px 10px 0 0;
+    pointer-events: none;
   }
 
   div.groupeprojets1 {
@@ -715,6 +715,7 @@ div.projets1 img {
 
 .AP1 img {
   object-fit: contain;
+  pointer-events: none;
 }
 
 div.w3c img {
@@ -723,14 +724,21 @@ div.w3c img {
 
 div.incidents img {
   object-fit: contain;
+  pointer-events: none;
+}
+
+div.camera img {
+  pointer-events: none;
 }
 
 div.migration img {
   object-fit: contain;
+  pointer-events: none;
 }
 
 div.incidents img {
   object-fit: contain;
+  pointer-events: none;
 }
 
 div.Titreprojets {
@@ -738,6 +746,18 @@ div.Titreprojets {
     font-size:27px;
     height: 40px;
     padding-bottom: 10px;
+}
+
+div.AP3 img {
+  pointer-events: none;
+}
+
+div.AP4 img {
+  pointer-events: none;
+}
+
+div.AP2 img {
+  pointer-events: none;
 }
 
 
@@ -755,10 +775,12 @@ div.coursprojets {
 
 div.Sportaddict img {
     object-fit: none;
+    pointer-events: none;
 }
 
 div.AP1 img {
     object-fit: cover;
+    pointer-events: none;
 }
 
 /* ______________________ FIN SECTION PROJETS______________________*/
@@ -989,27 +1011,25 @@ a.styled:hover{
     background-color:white;
   }
   .close {
-    background: #606061;
+    background: #904639;
     color: #ffffff;
-    line-height: 25px;
+    line-height: 45px;
     position: absolute;
     right: -12px;
     text-align: center;
     top: -10px;
-    width: 24px;
+    width: 45px;
     text-decoration: none;
     font-weight: bold;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    border-radius: 12px;
-    -moz-box-shadow: 1px 1px 3px #000;
-    -webkit-box-shadow: 1px 1px 3px #000;
-    box-shadow: 1px 1px 3px #000;
     font-family: 'GROTESKIA';
     cursor: url('../cursors/handcursor1.cur'), auto;
+    font-size: 40px;
+    border-radius: 0px;
+    padding-left: 5px;
+    padding-bottom: 10px;
   }
   .close:hover {
-    background: #D2D7DD;
+    background: hsl(9, 44%, 26%);
   }
 
   /* ____________________________________*/

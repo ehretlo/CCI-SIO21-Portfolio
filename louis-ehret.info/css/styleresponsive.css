@@ -417,6 +417,23 @@ footer {
   font-size: 56px;
 }
 
+.close {
+    background: #904639;
+    color: #ffffff;
+    line-height: 85px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 70px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'NOTO';
+    cursor: url(../cursors/handcursor1.cur), auto;
+    border-radius: 0px;
+    font-size: 60px;
+}
+
 /*_________________________________________________*/
 /* ______________________SECTION CONTACTS______________________*/
   div.integrationrs {
@@ -462,7 +479,7 @@ div.mentions {
 }
 
 div.textesmentions {
-  font-size: 35px;
+  font-size: 28px;
 }
 
 div.titresmentions, div.titresmentions1 {
@@ -475,7 +492,7 @@ div.titresmentions, div.titresmentions1 {
     margin: 10% auto;
     padding: 5px 20px 13px 20px;
     border-radius: 10px;
-    background-color: #D2D7DD;
+    background-color: white;
 }
 
 }
