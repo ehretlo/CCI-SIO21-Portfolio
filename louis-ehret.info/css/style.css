@@ -822,6 +822,42 @@ div.textcontactsprincipal {
     Padding-top: 100px;
 }
 
+.gallery {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  background: white;
+  }
+  
+  .gallery img {
+  width: 290px; /* Définissez la largeur souhaitée pour vos images */
+  margin: 10px;
+  height: 455px;
+  border-radius: 10px ;
+  transition-duration: 700ms;
+  }
+  
+  @media (max-width: 768px) {
+  /* Styles pour les appareils mobiles */
+  .gallery img {
+  width: 100%; /* Les images occuperont toute la largeur de l'écran */
+    }
+  }
+
+ .gallery img:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.2);
+  transition-property: transform;
+  transition-duration: 700ms;
+ }
+
+ .docu {
+  color: #000;
+  text-align: center;
+  font-size: 25px;
+
+ }
+
 /*__________________________________________partie 5 intégrations__________________________________________*/
 
 footer {
