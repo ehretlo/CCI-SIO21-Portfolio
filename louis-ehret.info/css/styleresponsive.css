@@ -262,6 +262,18 @@ div.vigenere {
   height: 740px;
 }
 
+div.kryptos {
+  height: 740px;
+}
+
+div.gallery img {
+  width: 400px;
+  margin: 10px;
+  height: 589px;
+  border-radius: 10px;
+  transition-duration: 700ms;
+}
+
 div.Titreprojets a {
   font-size: 50px;
 }
@@ -275,7 +287,7 @@ div.AP1 div.Titreprojets a {
 }
 
 
-div.projets1 div.icann, div.w3c, div.Sportaddict, div.archedenoe, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3, div.AP4, div.vigenere, div.berghof, div.everest, div.attacks, div.camera, div.incidents, div.chess {
+div.projets1 div.icann, div.w3c, div.Sportaddict, div.archedenoe, div.siopedia, div.kryptos, div.AP1, div.AP2, div.AP3, div.AP4, div.vigenere, div.berghof, div.everest, div.attacks, div.camera, div.incidents, div.chess {
   padding-bottom: 280px;
   width: 90%;
   
@@ -493,6 +505,10 @@ div.titresmentions, div.titresmentions1 {
     padding: 5px 20px 13px 20px;
     border-radius: 10px;
     background-color: white;
+}
+
+.docu {
+  padding-top: 80px;
 }
 
 }

@@ -537,7 +537,7 @@ div.projets1 {
 }
 
 
-div.villawagner, div.icann, div.w3c, div.Sportaddict, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3, div.AP4, div.vigenere, div.berghof, div.everest, div.attacks, div.hmail, div.voip, div.securitesurete, div.pca, div.camera, div.migration, div.veilleos, div.incidents, div.chess {
+div.villawagner, div.icann, div.w3c, div.Sportaddict, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3, div.AP4, div.vigenere, div.kryptos, div.everest, div.attacks, div.hmail, div.voip, div.securitesurete, div.pca, div.camera, div.migration, div.veilleos, div.incidents, div.chess {
     width: 30%;
     height: 375px;
     margin: 10px;
@@ -596,7 +596,7 @@ div.Sportaddict:hover {
   box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
 }
 
-div.Kryptos:hover {
+div.kryptos:hover {
     transform: translateY(-5px);
     box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
   }
@@ -830,13 +830,22 @@ div.textcontactsprincipal {
   }
   
   .gallery img {
-  width: 290px; /* Définissez la largeur souhaitée pour vos images */
+  width: 310px; /* Définissez la largeur souhaitée pour vos images */
   margin: 10px;
   height: 455px;
   border-radius: 10px ;
   transition-duration: 700ms;
   }
-  
+
+  div.gallery .DDAY {
+    object-fit: fill;
+  }
+
+  div.gallery .attacks {
+    object-fit: fill;
+  }
+
+
   @media (max-width: 768px) {
   /* Styles pour les appareils mobiles */
   .gallery img {
