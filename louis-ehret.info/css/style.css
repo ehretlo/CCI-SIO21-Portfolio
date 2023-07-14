@@ -332,7 +332,6 @@ div.sectionmesformations {
 
 div.introcompétences {
   font-size: 20px;
-  width: 1600px;
   text-align: center;
 }
 
@@ -845,6 +844,10 @@ div.textcontactsprincipal {
     object-fit: fill;
   }
 
+.entreprisesgrandtitre {
+  display: flex;
+  padding-top: 20px;
+}
 
   @media (max-width: 768px) {
   /* Styles pour les appareils mobiles */
@@ -1620,8 +1623,10 @@ button a {
   /* Style de la section des entreprises */
   #entreprises {
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
   
   /* Style de chaque entreprise */
