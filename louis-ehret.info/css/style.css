@@ -379,6 +379,14 @@ div.goulden {
     margin-top: 15px;
 }
 
+div.imageufr img {
+  width: 400px;
+}
+
+div.ufrdiv {
+  margin-left: 40px;
+}
+
 div.texteetimage {
     display: flex;
     align-items:flex-end;
@@ -758,8 +766,6 @@ div.AP4 img {
 div.AP2 img {
   pointer-events: none;
 }
-
-
 
 div.Texteprojets {
     font-size: 20px;
