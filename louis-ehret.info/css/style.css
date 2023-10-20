@@ -535,11 +535,11 @@ div.projets1 {
     justify-content: space-evenly;
     text-align: center;
     padding-bottom: 30px;
-    
+    padding-top: 60px;
 }
 
 
-div.villawagner, div.icann, div.w3c, div.Sportaddict, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3, div.AP4, div.vigenere, div.kryptos, div.everest, div.attacks, div.hmail, div.voip, div.securitesurete, div.pca, div.camera, div.migration, div.veilleos, div.incidents, div.chess {
+div.villawagner, div.icann, div.Sportaddict, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3, div.AP4, div.vigenere, div.kryptos, div.everest, div.attacks, div.hmail, div.voip, div.securitesurete, div.pca, div.camera, div.migration, div.veilleos, div.incidents, div.chess {
     width: 30%;
     height: 375px;
     margin: 10px;
@@ -549,10 +549,6 @@ div.villawagner, div.icann, div.w3c, div.Sportaddict, div.siopedia, div.Kryptos,
     padding-bottom: 110px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25); 
     border-radius: 10px;
-}
-
-div.w3c div.Titreprojets a {
-  font-size: 22px;
 }
 
 div.AP4 {
@@ -574,11 +570,6 @@ div.villawagner:hover {
 }
 
 div.icann:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
-}
-
-div.w3c:hover {
   transform: translateY(-5px);
   box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
 }
@@ -720,9 +711,6 @@ div.projets1 img {
   pointer-events: none;
 }
 
-div.w3c img {
-  object-fit: contain;
-}
 
 div.incidents img {
   object-fit: contain;
@@ -731,6 +719,7 @@ div.incidents img {
 
 div.camera img {
   pointer-events: none;
+  object-fit: contain;
 }
 
 div.migration img {
@@ -758,12 +747,9 @@ div.AP4 img {
   pointer-events: none;
 }
 
-div.AP2 img {
-  pointer-events: none;
-}
-
 div.Texteprojets {
     font-size: 20px;
+    padding-top: 3px;
 }
 
 div.coursprojets {
@@ -775,11 +761,6 @@ div.coursprojets {
 
 div.Sportaddict img {
     object-fit: none;
-    pointer-events: none;
-}
-
-div.AP1 img {
-    object-fit: cover;
     pointer-events: none;
 }
 
