@@ -17,6 +17,11 @@ div.image1 img {
 
     }
 
+h2 {
+  font-family: 'NOTO';
+  justify-content: center;
+}
+
 /*<h1 id="header" id="h1" style="width: 499px; height: 70px;"> manipuler la hauteur de la nav bar 1 */
 
 @font-face {
@@ -528,6 +533,8 @@ div.txtdeuxiemeprojet {
   color: red;
 }
 
+
+
 div.projets1 {
     font-family: 'NOTO';
     display: flex;
@@ -559,210 +566,6 @@ div.AP3 {
   background-color:#DC7633;
 }
 
-div.vigenere:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
-}
-
-div.villawagner:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
-}
-
-div.icann:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
-}
-
-div.archedenoe:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
-  }
-
-div.siopedia:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
-}
-
-div.Sportaddict:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
-}
-
-div.kryptos:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
-  }
-
-div.AP1:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
-}
-
-div.AP2:hover{
-    transform: translateY(-5px);
-    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
-}
-
-div.AP3:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
-}
-
-div.berghof:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
-}
-
-div.everest:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
-}
-
-div.attacks:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
-}
-
-div.AP4:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
-}
-
-div.hmail:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
-}
-
-div.voip:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
-}
-
-div.pca:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
-}
-
-div.securitesurete:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
-}
-
-div.messagerie:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
-}
-
-div.camera:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
-}
-
-div.migration:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
-}
-
-div.veilleos:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
-}
-
-div.incidents:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
-}
-
-div.chess:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.5);
-}
-
-div.archedenoe {
-    width: 30%;
-    height: 375px;
-    margin: 10px;
-    background-color: white;
-    transition-property: transform;
-    transition-duration: 500ms;
-    padding-bottom: 110px;
-}
-
-
-div.projets1 img {
-    width: 100%;
-    height: 80%;
-    transition: none;
-    transform: none;
-    transition-duration:none;
-    /* object-fit: none; */
-    width: -webkit-fill-available;
-    border-radius: 10px 10px 0 0;
-    pointer-events: none;
-  }
-
-  div.groupeprojets1 {
-    text-align: center;
-  }
-
-.AP1 img {
-  object-fit: contain;
-  pointer-events: none;
-}
-
-
-div.incidents img {
-  object-fit: contain;
-  pointer-events: none;
-}
-
-div.camera img {
-  pointer-events: none;
-  object-fit: contain;
-}
-
-div.migration img {
-  object-fit: contain;
-  pointer-events: none;
-}
-
-div.incidents img {
-  object-fit: contain;
-  pointer-events: none;
-}
-
-div.Titreprojets {
-    font-family: 'NOTO';
-    font-size:27px;
-    height: 40px;
-    padding-bottom: 10px;
-}
-
-div.AP3 img {
-  pointer-events: none;
-}
-
-div.AP4 img {
-  pointer-events: none;
-}
-
-div.Texteprojets {
-    font-size: 20px;
-    padding-top: 3px;
-}
-
-div.coursprojets {
-    font-size: 17px;
-    background-color: #000;
-    color: #fff;
-    padding-bottom: 5px
-}
-
-div.Sportaddict img {
-    object-fit: none;
-    pointer-events: none;
-}
 
 /* ______________________ FIN SECTION PROJETS______________________*/
 /*___________________________________________________________________*/
@@ -1696,32 +1499,6 @@ div.entreprise.sew h1 {
     transition-property: transform;
   }
 
-  .afficher-wrapper {
-    text-align: center;
-    margin-top: 20px;
-    font-family: 'NOTO';
-    font-size: 25px;
-    color: #000;
-    text-decoration: none;
-    padding-bottom: 25px;
-    position: relative;
-}
-.afficher {
-    cursor: pointer;
-    transition: all 2s ease;
-}
-.toto-closed {
-    height: 0;
-    opacity: 0;
-    overflow: hidden;
-    transition: all 2s ease;
-}
-.toto-open {
-    height: auto;
-    opacity: 1;
-    overflow: visible;
-    transition: all 2s ease;
-}
 
 
   /*FORMULAIRE DE CONTACT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
@@ -1814,6 +1591,125 @@ div.info {
 }
 
 div.sectionquisuisje {
-  height: 800px;
+  padding-top: 100px;
 }
 
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+
+html,
+body {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  height: 100%;
+  width: 100%; 
+
+  font-family: 'NOTO';
+  font-weight: 400;
+}
+ 
+.wrapper {
+  display: table;
+  width: 100%;
+}
+
+.container-fostrap {
+  padding: 1em;
+  text-align: center;
+  vertical-align: middle;
+}
+.fostrap-logo {
+  width: 100px;
+  margin-bottom:15px
+}
+h1.heading {
+  color: #fff;
+  font-size: 1.15em;
+  font-weight: 900;
+  margin: 0 0 0.5em;
+  color: #505050;
+}
+@media (min-width: 450px) {
+  h1.heading {
+    font-size: 3.55em;
+  }
+}
+@media (min-width: 760px) {
+  h1.heading {
+    font-size: 3.05em;
+  }
+}
+@media (min-width: 900px) {
+  h1.heading {
+    font-size: 3.25em;
+    margin: 0 0 0.3em;
+  }
+} 
+.card {
+  display: block; 
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); 
+    transition: box-shadow .25s; 
+    font-family: 'NOTO';
+}
+.card:hover {
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.img-card {
+  width: 100%;
+
+  border-top-left-radius:2px;
+  border-top-right-radius:2px;
+  display:block;
+    overflow: hidden;
+}
+.img-card img{
+  width: 100%;
+  height: 200px;
+  object-fit:cover; 
+  transition: all .25s ease;
+} 
+.card-content {
+  padding:15px;
+  text-align:left;
+}
+.card-title {
+  margin-top:0px;
+  font-weight: 700;
+  font-size: 1.65em;
+}
+.card-title a {
+  color: #000;
+  text-decoration: none !important;
+}
+.card-read-more {
+  border-top: 1px solid #D4D4D4;
+  background-color: #000;
+  font-family: 'NOTO';
+  cursor: url('../cursors/cursor1.cur'), auto;
+}
+
+.card-read-more:hover {
+  background-color: #333;
+}
+
+.card-read-more a {
+  text-decoration: none !important;
+  padding:10px;
+  font-weight:600;
+  text-transform: uppercase;
+  color:white;
+}
+
+.card-read-more a:hover {
+  color: white;
+      cursor:url('../cursors/handcursor1.cur'), auto;
+}
+
+@media (min-width: 1400px) {
+div.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1720px;
+}
+}
