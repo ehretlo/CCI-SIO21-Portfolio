@@ -8,21 +8,40 @@
 ​<link type="text/css" rel="stylesheet" href="css/styleresponsive.css"/>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 
 
 <!-- barre de navigation FIXE-->
-<header class="header">
-  <div class="technicien"><span class="policesignature">Louis EHRET</span>
-      <input class="menu-btn" type="checkbox" id="menu-btn" />
-      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-      <ul class="menu">
-          <li><a href="#quisuisje">Qui je suis</a></li>
-          <li><a href="#Compétences">Compétences</a></li>
-          <li><a href="#Projets">Projets</a></li>
-          <li><a href="#Contacts">Contacts</a></li>
-      </ul>
-  </div>
-  </div>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="font-size: 20px; font-family: 'NOTO'; position: fixed;padding-bottom: 0px; box-shadow: 0 0 5px 0;">
+      <div class="container-fluid" style="background-color: white;">
+        <a class="navbar-brand" style="font-size: 35px;"><span class="policesignature">Louis EHRET</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#quisuisje">Qui je suis</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Compétences">Compétences</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Projets">Projets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contacts">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
 <!-- image d'arrière plan-->
 <h1>
@@ -32,38 +51,50 @@
 <!-- Début du dessous de l'image de présentation, 1 pour le texte, 1 pour la redirection du titre-->
 <!-- SECTION QUI SUIS JE-->
 <div class="sectionquisuisje">
-    <div id="quisuisje"><h3>Qui je suis</h3></div>
+  <div id="quisuisje"><h3>Qui je suis</h3></div>
 <!-- Section qui suis je avec les textes -->
-
-<div class="portfolio">
-    <div class="image1"><img src="./pic/moi.jpg" alt="Moi !"></div>
-    <div class="info">
-    <div class="info1"><b><p>🗣Je suis Louis EHRET, Etudiant Alternant en Licence Professionnelle à l'UFR Math-Info</b>
-        <br>
-        <br>
-        Administration des Réseaux et Services
-        <br>
-    ♟Joueur d’échecs passionné
-    Au club de Bischwiller - Niveau intermédiaire
-        <br>
-    🤾‍♀️6 ans de HandBall en club réalisant des compétitions régionales
-    <div class="silver"><span class="yellow">1 OR </span>, 1 Argent</div>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <img src="./pic/moi.jpg" class="img-fluid" alt="Centered Image" style="  border-radius: 30px;
+      box-shadow: rgb(25, 111, 61) 5px 5px, rgba(25, 111, 61, 0.3) 10px 10px, rgba(25, 111, 61, 0.2) 15px 15px, rgba(25, 111, 61, 0.1) 20px 20px, rgba(25, 111, 61, 0.05) 25px 25px; padding-top: 20px;">
     </div>
-    - Etant <span class="grote">rigoureux, sérieux et calme</span> dans les tâches que j’entreprends, j’aime aboutir à un résultat <span class="grote">net et précis</span> pour chacune de mes activités.
-    <br>
-    - Passionné par le Web et la Bureautique grâce à ses <span class="grote"> fonctions infinies</span>, j’aime aider les utilisateurs dans leurs problèmes.
-    <br>
-    - Je travaille tout aussi bien en <span class="grote">équipe</span> que <span class="grote">seul</span> en fonction de mes projets
+  </div>
+</div>
+  <div class="info" style="padding-top:20px;">
+  <div class="info1"><b><p>🗣Je suis Louis EHRET, Etudiant Alternant en Licence Professionnelle à l'UFR Math-Info</b>
+      <br>
+      <br>
+      Administration des Réseaux et Services
+      <br>
+  ♟Joueur d’échecs passionné
+  Au club de Bischwiller - Niveau intermédiaire
+      <br>
+  🤾‍♀️6 ans de HandBall en club réalisant des compétitions régionales
+  <div class="silver"><span class="yellow">1 OR </span>, 1 Argent</div>
+  </div>
+  - Etant <span class="grote">rigoureux, sérieux et calme</span> dans les tâches que j’entreprends, j’aime aboutir à un résultat <span class="grote">net et précis</span> pour chacune de mes activités.
+  <br>
+  - Passionné par le Web et la Bureautique grâce à ses <span class="grote"> fonctions infinies</span>, j’aime aider les utilisateurs dans leurs problèmes.
+  <br>
+  - Je travaille tout aussi bien en <span class="grote">équipe</span> que <span class="grote">seul</span> en fonction de mes projets
 </div>
 </div>
 <!-- BOUTON ACCES CV-->
 <br>
 <div class="doc_cv"><a href="https://drive.google.com/file/d/1ZdFWYMQOK4I0xiOxBJt2447nmZt_c4FV/view?usp=share_link" target="_blank" class="styled">Visionner le CV</a>
-   <!--<input class="favorite styled" type="file" value="CV" style="margin-bottom: 80px;"></div>-->
+ <!--<input class="favorite styled" type="file" value="CV" style="margin-bottom: 80px;"></div>-->
 </div>
 <!-- FIN BOUTON ACCES CV-->
 <br>
 </div>
+
+<!-- BOUTON ACCES CV-->
+<br>
+  <div class="d-grid gap-2">
+    <button type="button" class="btn btn-outline-dark"><a href="https://drive.google.com/file/d/1ZdFWYMQOK4I0xiOxBJt2447nmZt_c4FV/view?usp=share_link" target="_blank" >Visionner le CV</a></button>
+  </div>
+  <!-- FIN BOUTON ACCES CV-->
 
 <!--SECTION DIPLOMES-->
 <div class="sectiondiplomes">
@@ -252,34 +283,7 @@
                   </div>
               </div>
           </div>
-      </section>
-    <!-- DOCUMENTAIRES --> 
-        <h1 class="docu"> Quelques documentaires sur différents thèmes que j'ai réalisé...</h1>
-        <div class="gallery">
-            <a href="https://online.anyflip.com/uqyjr/qjix/mobile/index.html" target="_blank"><img src="./pic/Archedenoe.png" alt="911" class="archedenoe"></a>
-            <a href="https://online.anyflip.com/uqyjr/ijpk/mobile/index.html" target="_blank"><img src="./pic/911v2.png" alt="911" class="attacks"></a>
-            <a href="https://online.anyflip.com/uqyjr/ocpe/mobile/index.html" target="_blank"><img src="./pic/DDAY.png" alt="DDAY" class="DDAY"></a>
-            <a href="https://online.anyflip.com/uqyjr/anjh/mobile/index.html" target="_blank"><img src="./pic/everestv2.png" alt="Everest"></a>
-            <a href="https://online.anyflip.com/uqyjr/zprb/mobile/index.html" target="_blank"><img src="./pic/stalingrad.png" alt="stalingrad"></a>
-            <a href="https://online.anyflip.com/uqyjr/ocpe/mobile/index.html" target="_blank"><img src="./pic/berghofv2.png" alt="berghof"></a>
-            <a href="https://online.anyflip.com/uqyjr/ylsa/mobile/index.html" target="_blank"><img src="./pic/waffenss.png" alt="waffenss"></a>
-            <a href="https://online.anyflip.com/uqyjr/fzee/mobile/index.html" target="_blank"><img src="./pic/Villawagner.png" alt="villawagner"></a>
-            <a href="https://drive.google.com/file/d/1u6iUyAB8X8H1lXK3Tpl85upT0LLWQZ1T/view?usp=sharing" target="_blank"><img src="./pic/echecsv2.png" alt="échecs"></a>
-            <a href="https://drive.google.com/file/d/1LV4FCWSVuvTljuK5ySnbPOFnTmhhJbik/view?usp=sharing" target="_blank"><img src="./pic/changement.png" alt="changement"></a>
-            <!--
-            <a href="https://drive.google.com/file/d/1hNSpWM7KkG3_QdsxjNRIj_70UypYdje7/view" target="_blank"><img src="./pic/Archedenoe.png" alt="911" class="archedenoe"></a>
-            <a href="https://drive.google.com/file/d/1ifqJSGguHtPg0RgAXF5vNVZeq2645OD5/view?usp=sharing" target="_blank"><img src="./pic/911v2.png" alt="911" class="attacks"></a>
-            <a href="https://drive.google.com/file/d/1GUMMZrMBkbdbqNSqAp9ieQ41rj0DdbYz/view?usp=sharing" target="_blank"><img src="./pic/DDAY.png" alt="DDAY" class="DDAY"></a>
-            <a href="https://drive.google.com/file/d/1sLrkmGUu8f4Mjo1p4W2C9C2EFsPIEKN4/view?usp=sharing" target="_blank"><img src="./pic/everestv2.png" alt="Everest"></a>
-            <a href="https://drive.google.com/file/d/1GJ8KU1y3uoBidhhKcv9ZVnUEPEm-TpZb/view?usp=sharing" target="_blank"><img src="./pic/stalingrad.png" alt="stalingrad"></a>
-            <a href="https://drive.google.com/file/d/1MNb9gwDROjjMxacIl_cCUOfNsS6fgYKj/view?usp=sharing" target="_blank"><img src="./pic/berghofv2.png" alt="berghof"></a>
-            <a href="https://drive.google.com/file/d/1ePUSTSWrxDk5PHipbFbGcGJQxSwQfw-z/view?usp=sharing" target="_blank"><img src="./pic/waffenss.png" alt="waffenss"></a>
-            <a href="https://drive.google.com/file/d/14ZsOvVffvnqPGZt-FLwdnCZywsSBNADw/view?usp=sharing" target="_blank"><img src="./pic/Villawagner.png" alt="villawagner"></a>
-            <a href="https://drive.google.com/file/d/1u6iUyAB8X8H1lXK3Tpl85upT0LLWQZ1T/view?usp=sharing" target="_blank"><img src="./pic/echecsv2.png" alt="échecs"></a>
-            <a href="https://drive.google.com/file/d/1LV4FCWSVuvTljuK5ySnbPOFnTmhhJbik/view?usp=sharing" target="_blank"><img src="./pic/changement.png" alt="changement"></a>
-            -->
-              </div>
-        <div class="groupeprojets">
+          <div class="groupeprojets">
             <div class="deuxiemeprojet" id="E5"><span><i class="fas fa-rectangle-history" style="color: #904639;"></i>Les projets les plus importants pour le BTS SIO - Epreuve E4 & E5 (documentations techniques)</div></span>
         </div>
         <div class="projets1">
@@ -395,8 +399,23 @@
                 </div>
               </div>
           </div>
-        </section>
-        
+
+      </section>
+    <!-- DOCUMENTAIRES --> 
+        <h1 class="docu"> Quelques documentaires sur différents thèmes que j'ai réalisé...</h1>
+        <div class="gallery">
+            <a href="https://online.anyflip.com/uqyjr/qjix/mobile/index.html" target="_blank"><img src="./pic/Archedenoe.png" alt="911" class="archedenoe"></a>
+            <a href="https://online.anyflip.com/uqyjr/ijpk/mobile/index.html" target="_blank"><img src="./pic/911v2.png" alt="911" class="attacks"></a>
+            <a href="https://online.anyflip.com/uqyjr/ocpe/mobile/index.html" target="_blank"><img src="./pic/DDAY.png" alt="DDAY" class="DDAY"></a>
+            <a href="https://online.anyflip.com/uqyjr/anjh/mobile/index.html" target="_blank"><img src="./pic/everestv2.png" alt="Everest"></a>
+            <a href="https://online.anyflip.com/uqyjr/zprb/mobile/index.html" target="_blank"><img src="./pic/stalingrad.png" alt="stalingrad"></a>
+            <a href="https://online.anyflip.com/uqyjr/ocpe/mobile/index.html" target="_blank"><img src="./pic/berghofv2.png" alt="berghof"></a>
+            <a href="https://online.anyflip.com/uqyjr/ylsa/mobile/index.html" target="_blank"><img src="./pic/waffenss.png" alt="waffenss"></a>
+            <a href="https://online.anyflip.com/uqyjr/fzee/mobile/index.html" target="_blank"><img src="./pic/Villawagner.png" alt="villawagner"></a>
+            <a href="https://drive.google.com/file/d/1u6iUyAB8X8H1lXK3Tpl85upT0LLWQZ1T/view?usp=sharing" target="_blank"><img src="./pic/echecsv2.png" alt="échecs"></a>
+            <a href="https://drive.google.com/file/d/1LV4FCWSVuvTljuK5ySnbPOFnTmhhJbik/view?usp=sharing" target="_blank"><img src="./pic/changement.png" alt="changement"></a>
+        </div>
+              <!-- bouton afficher plus-->
         <div>
           <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
               Afficher plus

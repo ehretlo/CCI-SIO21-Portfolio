@@ -1585,13 +1585,14 @@ div.portfolio, div.silver, div.or {
 
 div.info {
   margin-left: 50px;
-  height: 475px;
-  width: 530px;
+    width: 530px;
   text-align: justify;
+  margin: auto;
 }
 
 div.sectionquisuisje {
-  padding-top: 100px;
+  margin-top: 50px;
+  font-family: 'NOTO';
 }
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
@@ -1632,10 +1633,16 @@ h1.heading {
   h1.heading {
     font-size: 3.55em;
   }
+
 }
 @media (min-width: 760px) {
   h1.heading {
     font-size: 3.05em;
+    max-width: 30px;
+  }
+
+  .wrapper {
+    width: 100%;
   }
 }
 @media (min-width: 900px) {
@@ -1712,4 +1719,56 @@ h1.heading {
 div.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     max-width: 1720px;
 }
+}
+
+.menu {
+  display: none;
+}
+.menu-btn {
+  display: none;
+}
+@media (max-width: 576px) {
+  .menu {
+    display: block;
+    max-width: 113%;
+  }
+  .menu-btn {
+    display: block;
+  }
+  .menu-icon {
+    cursor: pointer;
+  }
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.policesignature {
+  margin-right: 20px;
+}
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+a.nav-link {
+  color: #000;
+}
+
+button.navbar-toggler {
+  color: #904639;
+}
+
+.portfolio {
+
+}
+.image1 {
+  margin: 0 auto;
+}
+.info {
+  flex: 0 0 60%;
+  max-width: 60%;
 }
