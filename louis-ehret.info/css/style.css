@@ -1762,13 +1762,17 @@ button.navbar-toggler {
   color: #904639;
 }
 
-.portfolio {
-
-}
 .image1 {
   margin: 0 auto;
 }
 .info {
   flex: 0 0 60%;
   max-width: 60%;
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
 }
