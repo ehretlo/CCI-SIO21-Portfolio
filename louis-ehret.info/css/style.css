@@ -1,7 +1,3 @@
-/* ______________________PARTIE GENERALE______________________*/
-/* PARTIE FONT FACE, HTML (scroll, body, curseur), BARRE DE NAV, HOVER*/
-
-/*ralenti le scroll quand un lien est cliqué, révolutionnaire*/
 html {
     scroll-behavior: smooth;
     cursor: url('../cursors/cursor1.cur'), auto;
@@ -9,9 +5,12 @@ html {
 
 body{
     margin:0px;
-    
-    }
-
+    cursor: url('../cursors/cursor1.cur') auto;
+    margin: 0;
+    font-family: 'NOTO';
+    margin-top:20px;
+  }
+  
 div.image1 img {
       pointer-events: none;
 
@@ -63,44 +62,6 @@ div.technicien {
 /* ______________________ DEBUT BANNER DE PRESENTATION______________________*/
 /* fond qui bouge. à laisser */
 
-.divider {
-  height: 50px;
-  border-left: 3px solid black;
-  margin: 0 10px;
-}
-
-.banner {
-
-    height: 870px ;
-    width: 100%;
-    background: url('../pic/hexagon1.png');
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-    color: white;
-    position: initial;
-    display: flex;
-    border-bottom: solid #904639;
-}
-
-p.presentationtext {
-  border-radius: 10px 10px 10px 10px;
-  letter-spacing: .05em;
-  text-shadow: 
-    4px 4px 0px #904639, 
-    7px 7px 0px #904639;
-    z-index: 1;
-  }
-  
-
-.bannerthing {
-  background-color: #D2D7DD;
-  padding-bottom: 10px;
-  padding-left: 5px;
-  border-radius: 10px;
-  z-index: -1;
-  position: relative;
-}
 
 .underline {
   text-decoration: none;
@@ -130,66 +91,6 @@ p.presentationtext {
   right: 0;
 }
 
-/* EXPLICATIONS HTML 
-l'élément &nbsp; sert à ajouter un espace supplémentaire dans un texte. &ensp pour 2 espaces etc.. */
-
-@media (min-width: 768px){
-.presentationtext {
-    font-size: 70px;
-    color: #333;
-    font-family: 'NOTO';
-    text-align: center;
-    width: 1500px;
-}
-}
-
-/* cette div s'occupe de centrer la div dex et la div vertical*/
-div.centertext {
-    margin-left: 90px;
-    margin-right:auto;
-    margin-top: 80px;
-    display: INLINE-BLOCK;
-}
-
-.vertical {
-    border-left: 2px solid #fff;
-    height: 500px; 
-}
-
-div.vertical {
-    border-left-width: 3px;
-    width: 5px;
-}
-
-div.carre {
-  background-color: #eee; 
-  width: 30%; 
-  font-size: 20px;
-}
-
-div.web {
-  background-color: #eee; 
-  width: 30%; 
-  margin-right: 10px; 
-  font-size: 20px;
-}
-
-div.web1 {
-  background-color: #333;
-  color: #fff;
-  width: 10%;
-  text-align: center;
-  padding-bottom: 20px;
-}
-
-div.web2 {
-  display: flex;
-  justify-content: space-between;
-  width: 95%;
-  margin-top: 30px;
-}
-
-
 /* PAGE WEB TEXTE EN DESSOUS DE LA PRESENTATION */
 
 h1 {
@@ -204,59 +105,6 @@ h3 {
     color: black;
 }
 
-div.image1 img {
-  border-radius: 30px;
-  box-shadow: rgb(25, 111, 61) 5px 5px, rgba(25, 111, 61, 0.3) 10px 10px, rgba(25, 111, 61, 0.2) 15px 15px, rgba(25, 111, 61, 0.1) 20px 20px, rgba(25, 111, 61, 0.05) 25px 25px;
-}
-
-div.image1 img:hover{
-  transform: translateY(-15px);
-}
-
-div.textandimage {
-    font-size: 18px;
-    display: flex;
-    height: 350px;
-      margin: auto;
-      justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: space-around;
-}
-
-div.text1 {
-    margin-top: 0px;
-    display: flex;
-    margin-left:25px;
-    width: 1000px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-left: 20px;
-    width: 410px;
-}
-
-div.text2 {
-    width: 400px;
-    margin-left: 20px;
-}
-
-.text4 {
-    width: 400px;
-    margin-left: 20px;
-}
-
-.text3 {
-    width: 400px;
-    margin-left: 30px;
-}
-div.text3 {
-    margin-top: 0px;
-    margin-left: 25px;
-    margin-left: 30px;
-}
-
-/* image stylisée et son hover*/
-
 img{
     object-fit:cover;
 	transition-property: transform;
@@ -265,27 +113,9 @@ img{
 }
 
 img:hover {
-    transform: scale(1.15);
+    transform: scale(1.05);
 }
-/* fin */
 
-.text5 {
-    width: 400px;
-    margin-left: 25px;
-}
-.text6 {
-    width: 400px;
-    margin-left: 20px;
-}
-.text7 {
-    color:#904639;
-    width: 400px;
-    margin-left: 20px;
-}
-.text8 {
-    width: 400px;
-    margin-left: 20px;
-}
 span.yellow {
     color: #fff000;
 }
@@ -320,81 +150,8 @@ h5 {
     font-size: 35px;
 }
 
-div.sectionmesformations {
-    background: #6b676b;
-    font-family: 'NOTO';
-    height: 900px;
-}
-
-div.sectionmesformations {
-  background: #6b676b;
-}
-
-div.introcompétences {
-  font-size: 20px;
-  text-align: center;
-}
-
-div.introcompétences1 {
-  text-align: center;
-  font-size: 20px;
-}
-
 div.sectionmesformations h3 {
     color: #fff;
-}
-
-/* mes formations texte */
-div.formatext1 {
-    color: #A5A9AD;
-    font-size: 20px;
-}
-
-div.formatext2 {
-    color:#A5A9AD;
-    font-size: 17px;
-    width: 500px;
-}
-
-div.formatext4 {
-    color:#A5A9AD;
-    font-size: 17px;
-    width: 420px;
-    margin: 0 auto;
-}
-
-
-div.formatext3 {
-    color:#904639;
-    font-size: 25px;
-}
-
-div.ccicampus {
-    margin-top: 15px;
-    font-size: 33px;
-}
-
-div.goulden {
-    font-size: 33px;
-    margin-top: 15px;
-}
-
-div.imageufr img {
-  width: 400px;
-}
-
-div.ufrdiv {
-  margin-left: 40px;
-}
-
-div.texteetimage {
-    display: flex;
-    align-items:flex-end;
-    justify-content: center;
-    grid: 0%;
-    margin-left: 100px;
-    align-items: baseline;
-    height: 390px;
 }
 
 h3 {
@@ -402,47 +159,10 @@ h3 {
     text-align: center;
 }
 
-div.temoignage {
-    font-size: 17px;
-    width: 400px;
-    
-    padding-top: 15px;
-
-}
-
-div.temoignage a {
-    cursor: url('../cursors/handcursor1.cur'), auto;
-}
-
-
-/* ______________________ FIN FORMATIONS_____________________*/
-/*___________________________________________________________________*/
-/* ______________________DEBUT SECTION ENTREPRISES______________________*/
-
-
 div.sectionentreprises h3 {
     font-family: 'NOTO';
     color:#000 ;
 }
-
-div.entreprises {
-    display: flex;
-       justify-content: space-evenly;
-    align-items: baseline;
-}
-
-/*
-div.sectionentreprises {  
-    background-color: #A5A9AD;
-    background: linear-gradient(135deg, #D2D7DD80 50%, transparent 0),linear-gradient(-135deg, #D2D7DD80 50%, transparent 0);
-    background-size: 3em 3em;
-    background-color: #A5A9AD;
-    opacity: 1
-}
-
-/* ______________________ FIN SECTION ENTREPRISE______________________*/
-/*___________________________________________________________________*/
-/* ______________________ DEBUT SECTION DIPLOMES______________________*/
 
 div.sectiondiplomes {
     background: #904639;
@@ -455,78 +175,12 @@ div.sectiondiplomes {
     padding-bottom: 30px;
 }
 
-div.imgdiplome {
-    height: 300px;
-    margin-top: -20px;
-    margin: auto;
-    display: block;
-}
-
-/* je ''désactive'' en qql sorte la transition et l'agrandissement car pas utile*/
-div.imgdiplome img {
-    transition: none;
-    transition-duration:inherit;
-    /* object-fit: none; */
-    width: -webkit-fill-available;
-}
-
-/*désactivatin du hover pour que l'image ne se transforme pas*/
-div.imgdiplome img:hover {
-    transform: none;
-}
-
 div.sectiondiplomes h3 {
     color: #fff;
 }
 
-div.experience {
-    margin-left:60px ;
-    font-size: 34px;
-    margin-right: 50px;
-   width: auto;
-    bottom: 700px;
-    display: block;
-}
-
-/* ______________________ FIN SECTION DIPLOMES______________________*/
-/*___________________________________________________________________*/
-/* ______________________ DEBUT SECTION PROJETS______________________*/
-
 div.sectionprojets h3 {
-     font-family: 'NOTO';
-    
-     
-}
-
-/*
-div.sectionprojets {
-    background-color: #A5A9AD;
-    background-image: linear-gradient(45deg, transparent 20%, #333 25%, transparent 25%), linear-gradient(-45deg, transparent 20%, #333 25%, transparent 25%), linear-gradient(-45deg, transparent 75%, #333 80%, transparent 0), radial-gradient(gray 2px, transparent 0);
-background-size: 30px 30px, 30px 30px;
-}
-*/
-
-div.premierprojet {
-    font-family: 'NOTO';
-    text-align: center;
-    font-size: 25px;
-    height: 55px;
-}
-
-div.deuxiemeprojet {
-    margin-top: 30px;
-    font-family: 'NOTO';
-    text-align: center;
-    font-size: 45px;
-    height: 55px;
-    font-size: 30px;
-    text-decoration: underline #333;
-}
-
-div.txtdeuxiemeprojet {
-  font-size: 19px;
-  height: 70px;
-  text-align: center;
+     font-family: 'NOTO'; 
 }
 
 .color {
@@ -543,34 +197,6 @@ div.projets1 {
     text-align: center;
 }
 
-
-div.villawagner, div.icann, div.Sportaddict, div.siopedia, div.Kryptos, div.AP1, div.AP2, div.AP3, div.AP4, div.vigenere, div.kryptos, div.everest, div.attacks, div.hmail, div.voip, div.securitesurete, div.pca, div.camera, div.migration, div.veilleos, div.incidents, div.chess {
-    width: 30%;
-    height: 375px;
-    margin: 10px;
-    background-color: white;
-    transition-property: transform;
-    transition-duration: 500ms;
-    padding-bottom: 110px;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25); 
-    border-radius: 10px;
-}
-
-div.AP4 {
-  background-color: #A5A9AD;
-}
-
-div.AP3 {
-  background-color:#DC7633;
-}
-
-
-/* ______________________ FIN SECTION PROJETS______________________*/
-/*___________________________________________________________________*/
-/* ______________________ DEBUT SECTION CONTACTS______________________*/
-
-/*background position va centrer l'image verticalement et horizontalement à tout moment*/
-/*no repeat signifie que ce n'est pas une mosaique*/
 div.sectioncontacts {
     font-family: 'NOTO';
     background-image: url('../pic/hexagon1.png');
@@ -628,44 +254,10 @@ div.textcontactsprincipal {
     object-fit: fill;
   }
 
-.entreprisesgrandtitre {
-  display: flex;
-  padding-top: 20px;
-  justify-content: center;
-}
-
-/* couleur de la section mes formations */
-
-div.sectionmesformations div.entreprisesgrandtitre div.entreprise.sew {
-  background: #6b676b;
-}
-
-div.sectionmesformations div.entreprisesgrandtitre div.entreprise.CHH {
-  background: #6b676b;
-}
-
-div.sectionmesformations div.entreprisesgrandtitre div.entreprise.dreal {
-  background: #6b676b;
-}
-
-div.sectionmesformations div.entreprisesgrandtitre div.entreprise.dreal h1 {
-  color: white;
-}
-
-div.sectionmesformations div.entreprisesgrandtitre div.entreprise.CHH h1 {
-  color: white;
-}
-
-div.sectionmesformations div.entreprisesgrandtitre div.entreprise.sew h1 {
-  color: white;
-}
-
-/* couleur de la section mes formations */
 
   @media (max-width: 768px) {
-  /* Styles pour les appareils mobiles */
   .gallery img {
-  width: 100%; /* Les images occuperont toute la largeur de l'écran */
+  width: 100%;
     }
   }
 
@@ -683,7 +275,6 @@ div.sectionmesformations div.entreprisesgrandtitre div.entreprise.sew h1 {
 
  }
 
-/*__________________________________________partie 5 intégrations__________________________________________*/
 
 footer {
     background:#ccc;
@@ -750,7 +341,6 @@ div.droits a:hover {
     cursor: url('../cursors/handcursor1.cur'), auto;
 }
 
-/* LIEN HYPERTEXT VERS LA VIDEO BAC*/
 
 a {
     color: black;
@@ -760,7 +350,6 @@ div.sources a {
     cursor: url('../cursors/handcursor1.cur'), auto;
 }
 
-/*_______________ trait !!!__________________ */
 
 h3:before {
     margin-left:-100%;
@@ -837,10 +426,6 @@ a.styled:hover{
     background: #555;
   }
 
-  body {
-    cursor: url('../cursors/cursor1.cur') auto;
-  }
-  
 /* ____________________________________*/
 /* The Modal (background) -------------------------------------------------------------------------- */
 
@@ -896,6 +481,7 @@ a.styled:hover{
   /* ____________________________________*/
 /* The Modaldialog1 (background) -------------------------------------------------------------------------- */
 
+/* EFFET SOUS LES MOTS */
 div.Titreprojets a {
   text-decoration: none;
 }
@@ -924,38 +510,6 @@ div.Titreprojets a:after {
 div.Titreprojets a:hover:after {
   right: 0;
 }
-
-/**/
-div.Titreprojets1 a {
-  text-decoration: none;
-}
-
-div.Titreprojets1 a:hover {
-  text-decoration: none;
-}
-
-div.Titreprojets1 a {
-  text-decoration: none;
-  position: relative;
-  font-weight: bold;
-}
-
-div.Titreprojets1 a:after {
-  border-radius: 1em;
-  border-top: .1em solid #904639;
-  content: "";
-  position: absolute;
-    right: 100%;
-    bottom: -0.2em;
-    left: 0;
-  transition: right .4s cubic-bezier(0,.5,0,1);
-}
-
-div.Titreprojets1 a:hover:after {
-  right: 0;
-}
-  
-  /* header */
   
   .header {
     background-color: #ABB2B9;
@@ -987,7 +541,6 @@ div.Titreprojets1 a:hover:after {
   
 
   /* menu */
-  
   .header .menu {
     clear: both;
     max-height: 0;
@@ -995,168 +548,7 @@ div.Titreprojets1 a:hover:after {
     font-size: 15px;
   }
 
-  /* menu icon */
-  
-  .header .menu-icon {
-    cursor: pointer;
-    display: inline-block;
-    float: right;
-    padding: 55px 20px;
-    position: relative;
-    user-select: none;
-  }
-  
-  .header .menu-icon .navicon {
-    background: #904639;
-    display: block;
-    height: 55px;
-    position: relative;
-    transition: background .2s ease-out;
-    width: 63px;
-  }
-  
-  .header .menu-icon .navicon:before,
-  .header .menu-icon .navicon:after {
-    background: #904639;
-    content: '';
-    display: block;
-    height: 100%;
-    position: absolute;
-    transition: all .2s ease-out;
-    width: 100%;
-  }
-  
-  .header .menu-icon .navicon:before {
-    top: 5px;
-    
-  }
-  
-  .header .menu-icon .navicon:after {
-    top: -5px;
-  }
-  
-  /* menu btn */
-  
-  .header .menu-btn {
-    display: none;
-  }
-  
-  .header .menu-btn:checked ~ .menu {
-    max-height: 240px;
-  }
-  
-  .header .menu-btn:checked ~ .menu-icon .navicon {
-    background: transparent;
-  }
-  
-  .header .menu-btn:checked ~ .menu-icon .navicon:before {
-    transform: rotate(-45deg);
-  }
-  
-  .header .menu-btn:checked ~ .menu-icon .navicon:after {
-    transform: rotate(45deg);
-  }
-  
-  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
-    top: 0;
-    height: 67px;
-  }
-  
-  /*EFFET UNDERLINE **************************************************/
-  body {
-    margin: 0;
-    font-family: 'NOTO';
-  }
-  
-  ul li a {
-    color: #000;
-    display: inline-block;
-  position: relative;
-  color: #000;
-  }
-
-  ul li a::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #904639;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-  }
-
-  ul li a:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
-  
   /* header */
-  
-  .header {
-    background-color: #A5A9AD;
-    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-    position: fixed;
-    width: 100%;
-    z-index: 3;
-    top: 0px;
-  }
-  
-  .header ul {
-    padding: 0;
-    list-style: none;
-    overflow: hidden;
-    background-color: #A5A9AD;
-  }
-  
-  .header li a {
-    display: block;
-    padding: 20px 20px;
-    border-right: 1px solid #A5A9AD;
-    text-decoration: none;
-    font-size: 90px;
-  }
-  
-  .header li a:hover,
-  .header .menu-btn:hover {
-    cursor: url('../cursors/handcursor1.cur'), auto;
-  }
-  
-/*EFFET UNDERLINE **************************************************/
-body {
-  margin: 0;
-  font-family: 'NOTO';
-}
-
-ul li a {
-  color: #000;
-  display: inline-block;
-position: relative;
-color: #000;
-}
-
-ul li a::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #904639;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-ul li a:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-/* header */
 
 .header {
   background-color: white;
@@ -1186,7 +578,6 @@ ul li a:hover::after {
 .header .menu-btn:hover {
   cursor: url('../cursors/handcursor1.cur'), auto;
 }
-
 
 /* EFFET UNDERLINE FIN *µµµµµµµµµµµµµµµµµµµµ/
   
@@ -1284,222 +675,38 @@ ul li a:hover::after {
     }
   }
 
-  .skills-section{
-    padding-top: 20px;
-    }    
-    .skills-container{
-    display: grid;
-    grid-tempLate-columns: repeat(5, 1fr);
-    justify-content:center;
-    align-items:center;
-    text-align: center;
-    grid-gap:1rem;
-    padding: 1rem 80px;
-    font-size: 1.2rem;
-    }
-    .skills-box{
-    padding: 1rem;
-    color: #000;
-    cursor: url('../cursors/handcursor1.cur'), auto;
-    }
 
-    /* EFFET BIZARRE VERS LA GAUCHE 
-    .skills-box:hover .skills-img{
-    transform: translateX(-20px);
-    }
-    */
-    
-    .skills-title{
-    display:flex;
-    flex-direction: column;
-    align-items:center;
-    padding: 0.5rem;
-    margin-bottom: 0.5rem;
-    position: relative;
-    }
-    
-    .skills-title:after{
-    content: '';
-    position:absolute;
-    bottom: 0;
-    right: 50%;
-    width:20px;
-    height:4px;
-    border-radius: 2px 0 0 2px;
-    background-color: #333;
-    transition: .5s;
-    }
-    
-    .skills-title:before{
-    content: '';
-    position:absolute;
-    bottom: 0;
-    left: 50%;
-    width:100px;
-    height:4px;
-    border-radius: 0 2px 2px 0;
-    background-color: #333;
-    }
-    
-    .skills-icons{
-    width:50px;
-    z-index:2;
-    }
-    
-    .skills-img{
-    width:90px;
-    height:90px;
-    position: relative;
-    border-radius: 45px;
-    background-color: #fff;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    transition: .5s;
-    }
-    
-    .skills-img:after{
-    content: '';
-    position:absolute;
-    top:0;
-    left: 0;
-    width:50%;
-    height:90px;
-    background: rgba(100, 100, 100, 0.5);
-    border-radius: 45px 0 0 45px;
-    }
-    .skills-title h1{
-    color: white;
-    margin-top: 0.5rem;
-    }
-    @media screen and (max-width:990px){
-     .skills-container{
-     grid-tempLate-columns: repeat(2, 1fr);
-     padding: 2rem 50px;
-     display: inline;
-     }
-    }
-    
-    @media screen and (max-width:650px){
-     .skills-container{
-     grid-tempLate-columns:2fr;
-     padding: 2rem 50px;
-     }
-    }
 
-div.skills-box p {
-  font-size: 30px;
+/*NAVBAR MODIFICATIONS*/
+ul li a {
+  color: #000;
+  display: inline-block;
+position: relative;
+color: #000;
+cursor: url("../cursors/handcursor1.cur"), auto;
 }
 
-/* POUR LE 70% *******************************************************/
-
-.container1 {
-  width: 100%; /* Full width */
-  background-color: #ddd; /* Grey background */
+ul li a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #904639;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
 }
 
-div.container1 .css {
-  width: 70%;
-  background-color: #2196F3;
+ul li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
-
-/* POUR LE 70% *******************************************************/
-
-/* Make sure that padding behaves as expected */
-* {box-sizing:border-box}
-.mon-bouton {
-  font-family: 'NOTO';
-  background-color: black; /* Couleur de fond */
-  border: none; /* Pas de bordure */
-  color: white; /* Couleur de texte */
-  padding: 12px 24px; /* Remplissage (haut/bas gauche/droite) */
-  text-decoration: none; /* Pas de soulignement */
-  display: inline-block; /* Affichage en ligne */
-  font-size: 17px; /* Taille de police */
-  cursor: url('../cursors/handcursor1.cur'), auto; /* Curseur de la souris de type pointeur */
-  border-radius: 5px; /* Arrondi des bords */
-  transition-duration: 0.4s; /* Durée de transition */
-  float: right;
-}
-
-.mon-bouton:hover {
-  background-color: #333; /* Couleur de fond lors du survol */
-  color: white; /* Couleur de texte lors du survol */
-}
-
-button a {
-  color: white;
-  text-decoration: none;
-  cursor: url('../cursors/handcursor1.cur'), auto;
-}
-
-  /* Style de la section des entreprises */
-  #entreprises {
-
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-  
-  /* Style de chaque entreprise */
-  .entreprise {
-    width: 300px;
-    margin: 20px;
-    border-radius: 10px;
-    overflow: hidden;
-    background: white;
-  }
-  
-  /* Style de l'image de chaque entreprise */
-  .entreprise img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-  }
-  
-  /* Style du texte de chaque entreprise */
-  .entreprise p {
-    text-align: center;
-    margin: 20px;
-    font-size: 25px;
-  }
-
-  .entreprise h1{
-    color: #000;
-    text-align: center;
-    font-size: 35px;
-  }
-
-div.entreprise.sew h1 {
-    color: #DE0000;
-  }
-
-  div.entreprise.dreal h1 {
-    color: #239B56;
-  }
-
-  div.entreprise.CHH h1 {
-    color: #30B0D3;
-  }
-
-  div.entreprise.sew, div.entreprise.dreal, div.entreprise.CHH, div.entreprise.Mairie {
-    transition-property: transform;
-    transition-duration: 500ms;
-  }
 
   
 
-  div.entreprise.sew:hover, div.entreprise.dreal:hover, div.entreprise.CHH:hover, div.entreprise.Mairie:hover{
-    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 25%);
-    transform: translateY(-15px);
-    transition-duration: 500ms;
-    transition-property: transform;
-  }
-
-
-
-  /*FORMULAIRE DE CONTACT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+  /*FORMULAIRE DE CONTACT*/
 
   #contact {
     padding: 60px 0;
@@ -1571,14 +778,6 @@ section#contact button {
 
 main a:hover {
   cursor: url('../cursors/handcursor1.cur'), auto;
-}
-
-div.portfolio, div.silver, div.or {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-  margin-left: 10px;
 }
 
 div.info {
@@ -1775,9 +974,6 @@ button.navbar-toggler {
 }
 }
 
-
-body{margin-top:20px;}
-
 .card-big-shadow {
     max-width: 320px;
     position: relative;
@@ -1799,7 +995,6 @@ body{margin-top:20px;}
     position: relative;
     z-index: 1;
 }
-
 
 .card[data-background="image"] .title, .card[data-background="image"] .stats, .card[data-background="image"] .category, .card[data-background="image"] .description, .card[data-background="image"] .content, .card[data-background="image"] .card-footer, .card[data-background="image"] small, .card[data-background="image"] .content a, .card[data-background="color"] .title, .card[data-background="color"] .stats, .card[data-background="color"] .category, .card[data-background="color"] .description, .card[data-background="color"] .content, .card[data-background="color"] .card-footer, .card[data-background="color"] small, .card[data-background="color"] .content a {
     color: #FFFFFF;
