@@ -119,6 +119,24 @@ img:hover {
 span.yellow {
     color: #fff000;
 }
+
+span.green {
+  color: green;
+}
+
+span.orange {
+  color: orangered;
+}
+
+span.purple {
+  color: purple;
+}
+
+span.blue {
+  color : blue;
+}
+
+
 div.silver {
     color: #6b676b;
     margin-left:20px;
